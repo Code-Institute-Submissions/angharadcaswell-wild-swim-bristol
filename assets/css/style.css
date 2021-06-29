@@ -10,7 +10,7 @@
 }
 
 :root {
-    --header-color: #022B3A;
+    --dark-color: #022B3A;
 }
 
 :root {
@@ -31,7 +31,12 @@
     border: none;
 }
 
-/* Header styling */
+/*Logo and Menu styling */
+header {
+    background-color: var(--dark-color);
+    height: 75px;
+}
+
 
 h1 {
     font-family: var(--heading-font);
@@ -41,16 +46,37 @@ h1 {
     letter-spacing: 4px;
     float: left;
     font-size: 280%;
+    line-height: 75px;
 }
 .bristol {
     display: inline;
     color: var(--blue-box);
 }
 
-li {
-  color: #fff;
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    line-height: 75px;
+ 
 }
 
-header{
-    background-color: var(--header-color);
-}
+#menu li {
+    color: #fff !important;
+    float: right;
+    list-style-type:none;
+    margin-right: 30px;
+    font-family: var(--main-font);
+  }
+
+  #menu a {
+      text-decoration: none;
+      color: inherit;
+  }
+
+  #menu a:hover {
+      border-bottom: 1px solid #FFF;
+  }
+
+  .active {
+    border-bottom: 1px solid #FFF;
+  }
