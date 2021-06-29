@@ -31,10 +31,22 @@
     border: none;
 }
 
+body {
+    font-family: var(--main-font);
+}
+
 /*Logo and Menu styling */
+
 header {
     background-color: var(--dark-color);
     height: 75px;
+}
+footer {
+    background-color: var(--dark-color);
+    height: 75px;
+    text-align: center;
+    color: #FFF;
+    line-height: 75px;
 }
 
 
