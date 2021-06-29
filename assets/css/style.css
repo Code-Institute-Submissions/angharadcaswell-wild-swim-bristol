@@ -94,8 +94,10 @@ h1 {
     border-bottom: 1px solid #FFF;
   }
 
-  /* Hero Image  and cover text*/
-  #hero-outer {
+  /* Hero images  and cover text*/
+
+
+  #hero-outer, #hero-outer-swimspot {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -104,19 +106,28 @@ h1 {
  
   }
 
-  #cover-text, #cover-text h2 {
+  #cover-text, #cover-text h2, #cover-text-swimspot, #cover-text-swimspot h2 {
     color: #fff;
+    text-align: center;
+    font-size: 120%;
   }
 
-  #hero-image {
+  #hero-image, #hero-image-swimspot {
       height: 600px;
       width: 100%;
-      background: url('../images/male_swimmer.png') no-repeat center center;
+    
 
       /* animation of hero image when the page is loading */
       animation: hero-zoom;
       animation-duration: 5s;
       animation-fill-mode: forwards;
+  }
+
+  #hero-image {
+    background: url('../images/male_swimmer.png') no-repeat center center;
+  }
+  #hero-image-swimspot {
+    background: url('../images/clevedon.png') no-repeat center center;
   }
 
   /* Hero image zoom */
@@ -132,22 +143,33 @@ h1 {
     }
 }
 
-#cover-text {
+#cover-text, #cover-text-swimspot {
     font-size: 130%;
     font-family: var(--main-font);
     text-transform: uppercase;
     letter-spacing: 2px;
 
-    width: 300px;
-    height: 200px;
+
     padding-top: 40px;
     padding-left: 10px;
     padding-bottom: 5px;
 
     background-color: rgba(31, 122, 140, 0.6);
-    
+}
+
+#cover-text {
+    width: 300px;
+    height: 200px;
     bottom: 200px;
     right: 200px;
+    position: absolute;
+}
+
+#cover-text-swimspot {
+    width: 500px;
+    height: 200px;
+    bottom: 200px;
+    left: 200px;
     position: absolute;
 }
 
