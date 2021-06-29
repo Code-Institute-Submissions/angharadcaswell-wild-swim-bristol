@@ -9,6 +9,22 @@
     --main-font:'Montserrat', sans-serif;
 }
 
+:root {
+    --header-color: #022B3A;
+}
+
+:root {
+    --blue-box: #BFDBF7;
+}
+
+:root {
+    --lilac-box: #E1E5F2;
+}
+
+:root {
+    --turquoise-box: #1F7A8C;
+}
+
 h1 {
     font-family: var(--heading-font);
 }
