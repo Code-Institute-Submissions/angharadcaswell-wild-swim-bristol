@@ -59,6 +59,7 @@ h1 {
     float: left;
     font-size: 280%;
     line-height: 75px;
+    margin-left: 20px;
 }
 .bristol {
     display: inline;
@@ -93,15 +94,22 @@ h1 {
     border-bottom: 1px solid #FFF;
   }
 
-  /* Hero Image */
+  /* Hero Image  and cover text*/
   #hero-outer {
-    height: 500px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
+ 
+  }
+
+  #cover-text, #cover-text h2 {
+    color: #fff;
   }
 
   #hero-image {
-      height: 500px;
+      height: 600px;
       width: 100%;
       background: url('../images/male_swimmer.png') no-repeat center center;
 
@@ -122,6 +130,25 @@ h1 {
     to {
         transform: scale(1.1);
     }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+
+    background-color: rgba(31, 122, 140, 0.6);
+    
+    bottom: 200px;
+    right: 200px;
+    position: absolute;
 }
 
  
