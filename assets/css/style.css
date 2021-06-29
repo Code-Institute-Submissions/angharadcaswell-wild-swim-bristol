@@ -92,3 +92,36 @@ h1 {
   .active {
     border-bottom: 1px solid #FFF;
   }
+
+  /* Hero Image */
+  #hero-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #hero-image {
+      height: 500px;
+      width: 100%;
+      background: url('../images/male_swimmer.png') no-repeat center center;
+
+      /* animation of hero image when the page is loading */
+      animation: hero-zoom;
+      animation-duration: 5s;
+      animation-fill-mode: forwards;
+  }
+
+  /* Hero image zoom */
+
+  @keyframes hero-zoom {
+
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+ 
