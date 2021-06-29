@@ -22,9 +22,35 @@
 }
 
 :root {
-    --turquoise-box: #1F7A8C;
+    --turquoise-box: #1F7A8C
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Header styling */
 
 h1 {
     font-family: var(--heading-font);
+    color: #fff;
+    display: inline;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    float: left;
+    font-size: 280%;
+}
+.bristol {
+    display: inline;
+    color: var(--blue-box);
+}
+
+li {
+  color: #fff;
+}
+
+header{
+    background-color: var(--header-color);
 }
