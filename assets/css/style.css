@@ -1,3 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@100&display=swap');
+
+
+:root {
+    --heading-font:'Raleway', sans-serif;
+}
+:root {
+    --main-font:'Montserrat', sans-serif;
+}
+
 h1 {
-    color: blue;
+    font-family: var(--heading-font);
 }
