@@ -97,7 +97,7 @@ h1 {
   /* Hero images  and cover text*/
 
 
-  #hero-outer, #hero-outer-swimspot, #hero-outer-swimsafe {
+  #hero-outer, #hero-outer-swimspot, #hero-outer-swimsafe, #hero-outer-getstarted {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -106,13 +106,13 @@ h1 {
  
   }
 
-  #cover-text, #cover-text h2, #cover-text-swimspot, #cover-text-swimspot h2, #cover-text-swimsafe, #cover-text-swimsafe h2 {
+  #cover-text, #cover-text h2, #cover-text-swimspot, #cover-text-swimspot h2, #cover-text-swimsafe, #cover-text-swimsafe h2, #cover-text-getstarted, #cover-text-getstarted h2  {
     color: #fff;
     text-align: center;
     font-size: 120%;
   }
 
-  #hero-image, #hero-image-swimspot, #hero-image-swimsafe {
+  #hero-image, #hero-image-swimspot, #hero-image-swimsafe, #hero-image-getstarted {
       height: 600px;
       width: 100%;
     
@@ -134,6 +134,10 @@ h1 {
       background: url('../images/lillypad.png') no-repeat center center;
   }
 
+  #hero-image-getstarted {
+        background: url('../images/getstarted.png') no-repeat center center;;
+  }
+
   /* Hero image zoom */
 
   @keyframes hero-zoom {
@@ -147,7 +151,7 @@ h1 {
     }
 }
 
-#cover-text, #cover-text-swimspot, #cover-text-swimsafe {
+#cover-text, #cover-text-swimspot, #cover-text-swimsafe, #cover-text-getstarted  {
     font-size: 130%;
     font-family: var(--main-font);
     text-transform: uppercase;
@@ -158,11 +162,19 @@ h1 {
     padding-left: 10px;
     padding-bottom: 5px;
 
-    background-color: rgba(31, 122, 140, 0.6);
+    background-color: rgba(31, 122, 140, 0.7);
 }
 
 #cover-text {
     width: 300px;
+    height: 200px;
+    bottom: 200px;
+    right: 200px;
+    position: absolute;
+}
+
+#cover-text-getstarted  {
+    width: 600px;
     height: 200px;
     bottom: 200px;
     right: 200px;
