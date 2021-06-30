@@ -216,4 +216,14 @@ margin-left: -100px;
     font-size: 40px;
     line-height: 55px;
 }
+
+.home-text-right ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.home-text-right li {
+    list-style-type:none;
+}
  
