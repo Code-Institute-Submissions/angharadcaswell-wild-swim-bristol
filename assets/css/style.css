@@ -198,7 +198,7 @@ h1 {
 .home-lilac-box {
     margin: 30px 300px 30px 300px;
     background-color: var(--lilac-box);
-    float: right;
+    height: 460px;
 }
 
 .home-text-right {
@@ -209,8 +209,9 @@ h1 {
 
 .home-text-left {
     float: left;
-    padding: 50px 0px 50px 50px;
+    padding: 100px 0px 50px 50px;
     color: var(--dark-color);
+    width: 50%;
   
 }
 
@@ -228,6 +229,8 @@ margin-bottom: 30px;
 .home-lilac-box img {
     margin-right: -100px;
     float: right;
+    width: 50%;
+
 }
 
 
