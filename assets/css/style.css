@@ -192,7 +192,7 @@ h1 {
 /* Home link section  */
 
 .home-blue-box {
-    margin: 30px 200px 30px 200px;
+    margin: 30px 300px 30px 300px;
     background-color: var(--blue-box);
 }
 
@@ -202,5 +202,18 @@ border-radius: 5px;
 margin-top: 30px;
 margin-bottom: 30px;
 margin-left: -100px;
+}
+
+.home-text-right {
+    float: right;
+    padding: 100px 50px 50px 0;
+    color: var(--dark-color);
+}
+
+.home-text-right h2 {
+    font-family: var(--heading-font);
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
 }
  
