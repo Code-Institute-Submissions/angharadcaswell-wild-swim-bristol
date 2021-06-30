@@ -355,6 +355,7 @@ width: 400px;
     font-size: 30px;
     padding-top: 10px;
     padding-right: 10px;
+    padding-left: 10px;
 }
 
 /* Location boxes */
@@ -432,6 +433,7 @@ font-size: 250%;
 
 .blue-icon {
     padding-right: 10px;
+    padding-left: 10px;
     vertical-align: middle;
     font-size: 30px;
     color: var(--dark-color);
