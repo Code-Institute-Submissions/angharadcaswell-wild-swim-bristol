@@ -64,6 +64,7 @@ h1 {
 h2 {
     font-family: var(--heading-font);
     font-weight: bold;
+    font-size: 30px;
 }
 .bristol {
     display: inline;
@@ -324,13 +325,13 @@ width: 400px;
 .swim-spot-container {
     position: relative;
     margin: 10px auto;
-    width: 1000px;
+    width: 650px;
 }
 .swim-spot-text {
     position: absolute;
     background-color: rgba(31, 122, 140, 0.7);
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     line-height: 25px;
     color: #fff;
     top: 50%;
