@@ -458,5 +458,27 @@ a {
 
 }
 
+/* Why swim section */
 
+#why-start {
+    height: 500px;
+    background: var(--lilac-box);
+}
+
+#left-start {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-start {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-start {
+    width: 33%;
+    margin: 0 auto;
+}
  
