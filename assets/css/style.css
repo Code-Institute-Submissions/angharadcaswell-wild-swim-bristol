@@ -342,16 +342,16 @@ width: 400px;
 
 .location-box {
     background: var(--dark-color);
-    height: 600px;
-    padding: 10px 20px 10px 10px;
+    height: 500px;
+    padding: 5px 20px 5px 10px;
   
 
 }
 .location-box h2{
 text-align: center;
 color: #fff;
-padding-top: 30px;
-padding-bottom: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
 font-weight: bold;
 font-size: 250%;
 
@@ -362,23 +362,38 @@ font-size: 250%;
     width: 50%;
     float: right;
     padding: 10px 10px;
+    line-height: 30px;
+    width: 60%;
+}
+.direction-list p {
+    display: inline;
 }
 
 .location-box iframe {
     padding-left: 50px;
     float: left;
+    width: 30%;
     
 }
 .location-box li {
         list-style-type:none;
+        padding-bottom: 10px;
     
 }
 
 .blue-icon {
-
+    padding-right: 10px;
     vertical-align: middle;
     font-size: 30px;
     color: var(--dark-color);
+}
+
+.location-box a {
+    color: inherit;
+}
+
+.address {
+    text-decoration: underline;
 }
 
 /* Links and Icons */
