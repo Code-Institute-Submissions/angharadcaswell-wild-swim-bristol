@@ -413,10 +413,16 @@ font-size: 250%;
 
 .location-box iframe {
     float: left;
+   
 }
 
 .right-map iframe {
     float: right;
+   
+}
+
+.right-map {
+    padding-left: 50px;
 }
 .location-box li, .lilac-location-box li {
         list-style-type:none;
