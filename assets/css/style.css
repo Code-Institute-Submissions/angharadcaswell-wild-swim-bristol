@@ -41,13 +41,13 @@ header {
     background-color: var(--dark-color);
     height: 75px;
 }
-/* footer {
+footer {
     background-color: var(--dark-color);
     height: 75px;
     text-align: center;
     color: #FFF;
     line-height: 75px;
-} */
+}
 
 
 h1 {
@@ -211,6 +211,7 @@ h1 {
     float: right;
     padding: 50px 50px 50px 0;
     color: var(--dark-color);
+    width: 50%;
 }
 
 .home-text-left {
@@ -248,6 +249,9 @@ width: 400px;
     font-size: 40px;
     line-height: 55px;
 }
+.home-turquoise-box h2, .home-turquoise-box p {
+    color: #fff;
+}
 
 
 
@@ -277,4 +281,36 @@ width: 400px;
     color: (var(--dark-color));
 }
 
+/* Bottom banner sections */
+#no-trace-outer{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative; 
+}
+
+#no-trace-image {
+    height: 500px;
+      width: 100%;
+      background: url('../images/conhamriverbanner.png') no-repeat center center;   
+}
+
+#no-trace-cover-text {
+    font-size: 130%;
+
+    letter-spacing: 2px;
+
+
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+
+    background-color: rgba(31, 122, 140, 0.7);
+    width: 300px;
+    height: 200px;
+    bottom: 100px;
+    right: 200px;
+    position: absolute;
+    color: #fff;
+}
  
