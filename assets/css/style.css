@@ -340,6 +340,47 @@ width: 400px;
     padding: 50px 20px 20px 20px ;
 }
 
+.location-box {
+    background: var(--dark-color);
+    height: 600px;
+    padding: 10px 20px 10px 10px;
+  
+
+}
+.location-box h2{
+text-align: center;
+color: #fff;
+padding-top: 30px;
+padding-bottom: 30px;
+font-weight: bold;
+font-size: 250%;
+
+}
+
+.direction-list {
+    background: var(--blue-box);
+    width: 50%;
+    float: right;
+    padding: 10px 10px;
+}
+
+.location-box iframe {
+    padding-left: 50px;
+    float: left;
+    
+}
+.location-box li {
+        list-style-type:none;
+    
+}
+
+.blue-icon {
+
+    vertical-align: middle;
+    font-size: 30px;
+    color: var(--dark-color);
+}
+
 /* Links and Icons */
 
 
@@ -364,4 +405,6 @@ width: 400px;
     background: var(--dark-color);
 
 }
+
+
  
