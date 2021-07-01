@@ -488,6 +488,7 @@ hr{
 }
 
 #center-start {
+    padding-top:50px;
     width: 33%;
     margin: 0 auto;
 }
@@ -521,9 +522,12 @@ hr{
     border-radius: 50%;
     color: #fff;
     margin: 0 auto;
+    padding: 30px;
 }
 
 .circle-container h2 {
-   margin: auto;
+ padding-top:100px;
    text-align: center;
+   font-size: 50px;
+ 
 }
