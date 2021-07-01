@@ -937,11 +937,13 @@ text-align: center;
 .circle-container {
     height: 150px;
     width: 150px;
+    
 }
 
 .circle-container h2 {
     padding-top:50px;
    }
+
 
    .safe-video {
     width: 60%;
@@ -950,14 +952,33 @@ text-align: center;
     padding-bottom: 10px;
 }
 
-.swim-lessons {
+.swim-lessons, .social {
     width: 80%;
     margin: 0 auto;
 }
 
-.swim-lessons img {
+.swim-lessons img, .social img {
     height: 250px;
     width: 250px;
 }
+
+/* Get started */
+
+#why-start {
+    height: 600px;
+}
+
+#center-start {
+    padding-top: 150px;;
+}
+
+.pensford-video, .kit-video {
+    width: 60%;
+    display: block;
+    margin: 20px auto;
+    padding-bottom: 10px;
+}
+
+
 }
 
