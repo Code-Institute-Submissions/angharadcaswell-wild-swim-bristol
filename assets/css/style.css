@@ -865,6 +865,23 @@ text-align: center;
         line-height: 25px;
     }
 
+    /* hero image */
+
+    #hero-image, #hero-image-swimspot, #hero-image-swimsafe, #hero-image-getstarted, #hero-image-swimsafespots,#hero-outer, #hero-outer-swimspot, #hero-outer-swimsafe, #hero-outer-getstarted, #hero-outer-swimsafespots, #hero-outer-swimsafespots {
+        height: 400px;
+    }
+    #cover-text, #cover-text-swimspot, #cover-text-swimsafe, #cover-text-getstarted  {
+        font-size: 40px;
+        font-family: var(--main-font);
+        text-transform: none;
+    
+        padding-top: 30px;
+        padding-left: 5px;
+        padding-bottom: 5px;
+        height: 150px;
+        bottom: 100px;
+    }
+
   
 }
 
