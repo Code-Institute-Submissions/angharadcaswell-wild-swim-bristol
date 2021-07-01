@@ -57,6 +57,12 @@ ol {
     padding: 15px;
    
 }
+.section-header{
+    text-align: center;
+    padding: 30px;
+    font-weight: 800;
+    color: var(--dark-color);
+}
 
 /*Logo and Menu styling */
 
@@ -273,7 +279,7 @@ width: 400px;
 
 .home-text-right h2, .home-text-left h2 {
     font-family: var(--heading-font);
-    font-weight: bold;
+
     font-size: 40px;
     line-height: 55px;
 }
@@ -387,7 +393,7 @@ text-align: center;
 color: #fff;
 padding-top: 10px;
 padding-bottom: 10px;
-font-weight: bold;
+
 font-size: 250%;
 
 }
@@ -564,11 +570,12 @@ padding-top: 20px;
     color: white;
     margin: 20px 20px;
     padding: 20px 20px;
-    height: 600px;
+    height: 700px;
 }
-.kit-list h2 {
-    text-align: center;
-    font-size: 250%;
+#kit-list h2 {
+   text-align: center;
+    color: #fff;
+    font-weight: 800;
 }
 
 #kit-list-left{
@@ -658,14 +665,15 @@ text-align: center;
 
 }
 
-.temp-title {
-    text-align: center;
-    padding: 30px;
-    font-weight: 800;
-    color: var(--dark-color);
-}
+
 
 .white-hr {
     border: 1px solid #FFF;
 }
+/* rnli video */
 
+.safe-video {
+    width: 50%;
+    display: block;
+    margin: 40px auto;
+}
