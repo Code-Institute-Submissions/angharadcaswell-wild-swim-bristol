@@ -402,8 +402,8 @@ width: 400px;
 
 .location-box-eastwood {
     background: var(--dark-color);
-    height: 700px;
-    padding: 5px 5px 5px 5px;
+    height: 600px;
+    padding: 10px 10px 10px 10px;
 }
 
 .lilac-location-box{
@@ -411,7 +411,7 @@ width: 400px;
     height: 500px;
  
 }
-.location-box h2, .lilac-location-box h2{
+.location-box h2, .lilac-location-box h2, .location-box-eastwood h2{
 text-align: center;
 color: #fff;
 padding-top: 10px;
@@ -445,6 +445,9 @@ font-size: 250%;
     float:right;
     width: 45%;
     margin:10px 10px;
+}
+.direction-list-left h2, .direction-list-right  h2{
+color: var(--dark-color);
 }
 
 
