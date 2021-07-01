@@ -787,6 +787,10 @@ text-align: center;
         font-weight: 400;
     }
 
+    p {
+        font-size: 15px;
+    }
+
 
 }
 
@@ -867,7 +871,7 @@ text-align: center;
 
     /* hero image */
 
-    #hero-image, #hero-image-swimspot, #hero-image-swimsafe, #hero-image-getstarted, #hero-image-swimsafespots,#hero-outer, #hero-outer-swimspot, #hero-outer-swimsafe, #hero-outer-getstarted, #hero-outer-swimsafespots, #hero-outer-swimsafespots {
+    #hero-image, #hero-image-swimspot, #hero-image-swimsafe, #hero-image-getstarted, #hero-image-swimsafespots,#hero-outer, #hero-outer-swimspot, #hero-outer-swimsafe, #hero-outer-getstarted, #hero-outer-swimsafespots, #hero-outer-swimsafespots{
         height: 400px;
     }
     #cover-text, #cover-text-swimspot, #cover-text-swimsafe, #cover-text-getstarted  {
@@ -881,6 +885,42 @@ text-align: center;
         height: 150px;
         bottom: 100px;
     }
+
+    /* Swim spot page */
+
+    .location-box iframe, .right-map, .eastwood-map-right iframe, .eastwood-map-left iframe {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .right-map, .eastwood-map-right iframe, .eastwood-map-left iframe, .location-box iframe{
+        padding-left: 10px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .white-icon, .blue-icon {
+        font-size: 20px;
+    }
+
+    .location-box-eastwood {
+
+        height: 800px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .eastwood-map-right{
+        margin-left: 10px;
+    }
+    .eastwood-map-right iframe, .eastwood-map-left iframe {
+        margin: 0 auto;
+    }
+
+    #cover-text-swimsafespots {
+        bottom: 100px;
+    }
+    
+
 
   
 }
