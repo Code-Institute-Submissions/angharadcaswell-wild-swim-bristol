@@ -44,11 +44,17 @@ ul {
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
+    list-style-type:none;
+
 }
 
 li {
-    list-style-type:none;
     padding-bottom: 10px;
+}
+
+ol {
+    padding: 15px;
+   
 }
 
 /*Logo and Menu styling */
@@ -473,7 +479,7 @@ hr{
     height: 500px;
 }
 #safe-tip {
-    height: 800px;
+    height: 900px;
 }
 
 #left-start, #left-safe {
@@ -494,6 +500,9 @@ hr{
     padding-top:50px;
     width: 33%;
     margin: 0 auto;
+}
+#center-safe {
+    padding-top: 250px;
 }
  
 
@@ -610,5 +619,11 @@ text-align: center;
 
 .social .white-icon {
     font-size: 20px;
+}
+
+/* Safety tips */
+
+.emergency li {
+    text-align: center;
 }
 
