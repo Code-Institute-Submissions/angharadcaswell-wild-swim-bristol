@@ -408,7 +408,7 @@ width: 400px;
 
 .lilac-location-box{
     background: var(--lilac-box);
-    height: 500px;
+
  
 }
 .location-box h2, .lilac-location-box h2, .location-box-eastwood h2{
@@ -483,6 +483,24 @@ color: var(--dark-color);
 .right-map {
     padding-left: 50px;
 }
+.eastwood-map-left{
+    width: 45%;
+    float: left;
+    margin-left: 50px;
+    
+    
+}
+
+.eastwood-map-left iframe, .eastwood-map-right iframe{
+    display: block;
+    margin: 0 auto;
+}
+.eastwood-map-right{
+    width: 45%;
+    float: right;
+    margin-left: 50px;
+}
+
 
 .blue-icon {
     padding-right: 10px;
