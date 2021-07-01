@@ -25,6 +25,7 @@
 :root {
     --turquoise-box: #1F7A8C
 }
+/* General CSS rules */
 
 * {
     margin: 0;
@@ -37,6 +38,17 @@ body {
 }
 strong {
     font-weight:bold;
+}
+
+ul {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+li {
+    list-style-type:none;
+    padding-bottom: 10px;
 }
 
 /*Logo and Menu styling */
@@ -85,7 +97,6 @@ h2 {
 #menu li {
     color: #fff !important;
     float: right;
-    list-style-type:none;
     margin-right: 30px;
     font-family: var(--main-font);
   }
@@ -263,17 +274,6 @@ width: 400px;
 }
 
 
-
-.home-text-right ul {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-}
-
-.home-text-right li {
-    list-style-type:none;
-}
-
 .button {
     padding: 10px 5px 10px 5px;
     background-color: var(--dark-color);
@@ -346,8 +346,7 @@ width: 400px;
 /* Links and Icons  for swim spot information*/
 
 
-.clevedon-links li {
-    list-style-type:none; 
+.clevedon-links li { 
     display: inline;
     padding-left: 10px;
     
@@ -429,11 +428,6 @@ font-size: 250%;
 .right-map {
     padding-left: 50px;
 }
-.location-box li, .lilac-location-box li {
-        list-style-type:none;
-        padding-bottom: 10px;
-    
-}
 
 .blue-icon {
     padding-right: 10px;
@@ -469,37 +463,43 @@ hr{
 
 /* Why swim section */
 
-#why-start {
-    height: 500px;
+#why-start, #safe-tip {
+    
     background: var(--lilac-box);
     color: var(--dark-color);
  
 }
+#why-start{
+    height: 500px;
+}
+#safe-tip {
+    height: 800px;
+}
 
-#left-start {
+#left-start, #left-safe {
     padding-top: 30px;
     width: 33%;
     float: left;
 
 }
 
-#right-start {
+#right-start, #right-safe {
     padding-top: 30px;
     width: 33%;
     float: right;
 
 }
 
-#center-start {
+#center-start, #center-safe {
     padding-top:50px;
     width: 33%;
     margin: 0 auto;
 }
  
 
-/* Style Get Started reason on the left */
+/* Style Get Started reasons and saftey tips*/
 
-.left-start-reason, .right-start-reason {
+.left-start-reason, .right-start-reason, .right-safe-tip, .left-safe-tip {
     background: var(--blue-box);
     width: 80%;
     line-height: 20px;
@@ -509,11 +509,11 @@ hr{
 
 }
 
-.left-start-reason {
+.left-start-reason, .left-safe-tip {
     float: right;
 }
 
-.right-start-reason {
+.right-start-reason, .right-safe-tip {
     float: left;
     text-align: right;
 }
@@ -548,7 +548,7 @@ padding-top: 20px;
 
 /* Kit list */
 
-.kit-list {
+#kit-list {
     background: var(--dark-color);
     color: white;
     margin: 20px 20px;
@@ -575,16 +575,10 @@ padding-top: 20px;
 #kit-list-left li, #kit-list-right li {
     line-height: 30px; ;
     margin-bottom: 10px;
-    list-style: none;
+
 
 }
 
-
-#kit-list-left ul, #kit-list-right ul {
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
 
 /* kit list video section */
 .kit {
@@ -611,7 +605,6 @@ text-align: center;
     
 }
 .social li {
-    padding-bottom: 20px;
     color: #fff;
 }
 
