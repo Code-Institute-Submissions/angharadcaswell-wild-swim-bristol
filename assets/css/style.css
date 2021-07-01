@@ -131,7 +131,7 @@ h2 {
   /* Hero images  and cover text*/
 
 
-  #hero-outer, #hero-outer-swimspot, #hero-outer-swimsafe, #hero-outer-getstarted {
+  #hero-outer, #hero-outer-swimspot, #hero-outer-swimsafe, #hero-outer-getstarted, #hero-outer-swimsafespots, #hero-outer-swimsafespots {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -140,13 +140,13 @@ h2 {
  
   }
 
-  #cover-text, #cover-text h2, #cover-text-swimspot, #cover-text-swimspot h2, #cover-text-swimsafe, #cover-text-swimsafe h2, #cover-text-getstarted, #cover-text-getstarted h2  {
+  #cover-text, #cover-text h2, #cover-text-swimspot, #cover-text-swimspot h2, #cover-text-swimsafe, #cover-text-swimsafe h2, #cover-text-getstarted, #cover-text-getstarted h2, #cover-text-swimsafespots, #cover-text-swimsafespots h2  {
     color: #fff;
     text-align: center;
     font-size: 120%;
   }
 
-  #hero-image, #hero-image-swimspot, #hero-image-swimsafe, #hero-image-getstarted {
+  #hero-image, #hero-image-swimspot, #hero-image-swimsafe, #hero-image-getstarted, #hero-image-swimsafespots {
       height: 600px;
       width: 100%;
     
@@ -169,7 +169,10 @@ h2 {
   }
 
   #hero-image-getstarted {
-        background: url('../images/getstarted.png') no-repeat center center;;
+        background: url('../images/getstarted.png') no-repeat center center;
+  }
+  #hero-image-swimsafespots {
+      background: url('../images/conhamtrees.png')no-repeat center center;
   }
 
   /* Hero image zoom */
@@ -191,12 +194,21 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
 
-
     padding-top: 40px;
     padding-left: 10px;
     padding-bottom: 5px;
 
     background-color: rgba(31, 122, 140, 0.7);
+}
+#cover-text-swimsafespots {
+    font-size: 130%;
+    font-family: var(--main-font);
+    letter-spacing: 2px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+
+    background-color: rgba(31, 122, 140, 0.7); 
 }
 
 #cover-text {
@@ -215,8 +227,8 @@ h2 {
     position: absolute;
 }
 
-#cover-text-swimspot, #cover-text-swimsafe {
-    width: 500px;
+#cover-text-swimspot, #cover-text-swimsafe, #cover-text-swimsafespots {
+    width: 600px;
     height: 200px;
     bottom: 200px;
     left: 200px;
