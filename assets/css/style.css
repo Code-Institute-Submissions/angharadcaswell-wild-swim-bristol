@@ -676,4 +676,9 @@ text-align: center;
     width: 50%;
     display: block;
     margin: 40px auto;
+    padding-bottom: 30px;
+}
+
+.lilac-background {
+    background: var(--lilac-box);
 }
