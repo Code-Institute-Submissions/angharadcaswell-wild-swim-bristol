@@ -345,11 +345,28 @@ width: 400px;
     margin: 10px auto;
     width: 650px;
 }
+.swim-spot-container-eastwood {
+    width: 750px;
+    position: relative;
+    margin: 10px auto;
+}
 .swim-spot-text {
     position: absolute;
     background-color: rgba(31, 122, 140, 0.8);
     width: 500px;
     height: 500px;
+    line-height: 25px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px 20px 20px 20px ;
+}
+.swim-spot-text-eastwood {
+    position: absolute;
+    background-color: rgba(31, 122, 140, 0.8);
+    width: 600px;
+    height: 600px;
     line-height: 25px;
     color: #fff;
     top: 50%;
