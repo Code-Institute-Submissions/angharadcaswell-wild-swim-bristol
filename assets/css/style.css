@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
 
 
 :root {
@@ -82,11 +83,12 @@ h1 {
     font-size: 280%;
     line-height: 75px;
     margin-left: 20px;
+    font-weight: 300;
 }
 h2 {
     font-family: var(--heading-font);
-    font-weight: bold;
     font-size: 30px;
+    font-weight: 300;
 }
 .bristol {
     display: inline;
@@ -625,5 +627,45 @@ text-align: center;
 
 .emergency li {
     text-align: center;
+}
+
+/* Temperature guide */
+
+#temp-guide {
+
+    
+    background-image: url('../images/conhamriverbanner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
+    height: 250px;
+
+}
+
+#temp-guide div {
+    color: #fff;
+    width: 25%;
+    height: 250px;
+    float: left;
+    background-color: rgba(31, 122, 140, 0.6);
+    padding: 30px 10px 10px 10px;
+    text-align: center;
+    border: 4px solid white;
+    box-sizing: border-box;
+
+
+}
+
+.temp-title {
+    text-align: center;
+    padding: 30px;
+    font-weight: 800;
+    color: var(--dark-color);
+}
+
+.white-hr {
+    border: 1px solid #FFF;
 }
 
