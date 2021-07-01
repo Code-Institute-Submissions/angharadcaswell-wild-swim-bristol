@@ -237,20 +237,20 @@ h2 {
 
 /* Home link sections  */
 
-.home-blue-box {
+.home-blue-box,.home-lilac-box,.home-turquoise-box  {
     margin: 30px 300px 30px 300px;
-    background-color: var(--blue-box);
     height: 464px;
+}
+
+.home-blue-box {
+    background-color: var(--blue-box);
 }
 .home-lilac-box {
-    margin: 30px 300px 30px 300px;
     background-color: var(--lilac-box);
-    height: 464px;
+
 }
 .home-turquoise-box {
-    margin: 30px 300px 30px 300px;
     background-color: var(--turquoise-box);
-    height: 464px;
 }
 
 .home-text-right {
@@ -759,4 +759,97 @@ text-align: center;
 
 .lilac-background {
     background: var(--lilac-box);
+}
+
+
+/* Media queries 1350px */
+
+/* General */
+@media screen and (max-width:1350px){
+    ul {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    
+    }
+    
+    li {
+        padding-bottom: 0;
+    }
+    
+    ol {
+        padding: 10px;
+       
+    }
+
+    h2 {
+        font-size: 25px !important;
+        font-weight: 400;
+    }
+
+
+}
+
+
+/* Home page */
+@media screen and (max-width:1350px){
+#page-links {
+    width: 70%;
+    height: 1350px;
+    margin: 0 auto;
+}
+
+.home-blue-box, .home-lilac-box  {
+    margin: 20px 10px;
+    height: 400px;
+    width: 100%;
+}
+
+.home-turquoise-box {
+    margin: 20px 10px;
+    height: 450px;
+    width: 100%;
+}
+
+.home-text-right, .home-text-left {
+    padding: 10px 10px 10px 15px;
+    width: 70%;
+}
+
+.home-text-right p, .home-text-left p, .home-text-right li, .home-text-left li  {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+.home-blue-box img, .home-lilac-box img, .home-turquoise-box img {
+
+    margin-top: 80px;
+    margin-bottom: 10px;
+    height: 200px;
+    width: 200px;
+    }
+
+    .home-blue-box img, .home-turquoise-box img{
+        margin-left: -50px;
+    }
+    
+    .home-lilac-box img {
+        margin-right: -50px;
+    }
+    li {
+        padding-bottom: 0;
+    }
+
+    .button{
+        margin-top: 0;
+        padding: 8px 5px 8px 5px;
+    }
+
+    .button a {
+        font-size: 10px;
+    }
+    
+
+  
 }
