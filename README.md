@@ -41,7 +41,7 @@ WILD SWIM BRISTOL website has a clean, fresh design. It should be eye catching b
 The header font is [Raleway](https://fonts.google.com/specimen/Raleway?query=raleway) and the main font is [Montserrat](https://fonts.google.com/specimen/Montserrat?query=mont). Along with their bold versions,both of these fonts have been imported from Google Fonts. 
 Raleway has been used to sytle the SWIM WILD BRISTOL logo as well as the headings. Both fonts are attractive, modern and easy to read. 
 
-### 
+### Color Scheme 
 
 
 
