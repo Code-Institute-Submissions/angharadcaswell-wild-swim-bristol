@@ -511,4 +511,19 @@ hr{
 
 .right-start-reason {
     float: left;
+    text-align: right;
+}
+
+.circle-container {
+    height: 300px;
+    width: 300px;
+    background: var(--turquoise-box);
+    border-radius: 50%;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.circle-container h2 {
+   margin: auto;
+   text-align: center;
 }
