@@ -473,6 +473,7 @@ hr{
     height: 500px;
     background: var(--lilac-box);
     color: var(--dark-color);
+ 
 }
 
 #left-start {
@@ -534,9 +535,12 @@ hr{
  
 }
 
-/* Videos */
-
-.pensford-video {
+/* Swimming videos */
+.pensford h2{
+text-align: center;
+padding-top: 20px;
+}
+.pensford-video{
     width: 50%;
     display: block;
     margin: 0 auto;
@@ -581,3 +585,14 @@ hr{
     margin-left: 10px;
     margin-right: 10px;
 }
+
+/* kit list video section */
+.kit {
+text-align: center;
+}
+.kit-video {
+    width: 50%;
+    display: block;
+    margin: 40px auto;
+}
+
