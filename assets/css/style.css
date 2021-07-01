@@ -396,8 +396,14 @@ width: 400px;
 
 .location-box, .lilac-location-box {
     background: var(--dark-color);
-    height: 450px;
+    height: 500px;
     padding: 5px 20px 5px 10px;
+}
+
+.location-box-eastwood {
+    background: var(--dark-color);
+    height: 700px;
+    padding: 5px 5px 5px 5px;
 }
 
 .lilac-location-box{
@@ -419,13 +425,28 @@ font-size: 250%;
     color: var(--dark-color);
 }
 
-.direction-list {
+.direction-list, .direction-list-left, .direction-list-right  {
     background: var(--blue-box);
-    float: right;
-    padding: 10px 10px;
+    padding: 5px 5px;
     line-height: 30px;
+
+}
+.direction-list{
+    float: right;
     width: 60%;
 }
+
+.direction-list-left {
+    float:left;
+    width: 45%;
+  
+}
+.direction-list-right {
+    float:right;
+    width: 45%;
+    margin:10px 10px;
+}
+
 
 .direction-list-lilac {
     float: left;
@@ -437,7 +458,7 @@ font-size: 250%;
 .direction-list-lilac p {
     color: #fff;
 }
-.direction-list p, .direction-list-lilac p {
+.direction-list p, .direction-list-lilac p, .direction-list-left p, .direction-list-right p {
     display: inline;
 }
 
