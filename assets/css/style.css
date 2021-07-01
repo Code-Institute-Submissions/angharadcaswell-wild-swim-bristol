@@ -531,3 +531,49 @@ hr{
    font-size: 50px;
  
 }
+
+/* Videos */
+
+.pensford-video {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Kit list */
+
+.kit-list {
+    background: var(--dark-color);
+    color: white;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    height: 600px;
+}
+.kit-list h2 {
+    text-align: center;
+    font-size: 250%;
+}
+
+#kit-list-left{
+    width: 50%;
+  height: 300px;
+    float: left;
+}
+
+#kit-list-right {
+    width: 50%;
+    height: 300px;
+    float: right;
+}
+
+#kit-list-left li, #kit-list-right li {
+    line-height: 30px; ;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+#kit-list-left ul, #kit-list-right ul {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
