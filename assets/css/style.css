@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 
 :root {
@@ -33,6 +34,9 @@
 
 body {
     font-family: var(--main-font);
+}
+strong {
+    font-weight:bold;
 }
 
 /*Logo and Menu styling */
@@ -443,9 +447,7 @@ a {
     color: inherit;
 }
 
-.address {
-    text-decoration: underline;
-}
+
 
 
 
@@ -570,7 +572,9 @@ hr{
     line-height: 30px; ;
     margin-bottom: 10px;
     list-style: none;
+
 }
+
 
 #kit-list-left ul, #kit-list-right ul {
     margin-top: 20px;
