@@ -15,7 +15,7 @@
 6. Deployment
 7. Credits
 
-## 1. Project Goals
+# 1. Project Goals
 ## 1.1 Reason for website:
 1. There are no websites available for swim spots specifically in Bristol, UK. 
 2. Swimmers should not be swimming without safety information.
@@ -27,9 +27,9 @@
 3. Connect swimmers in Bristol.
 Get people swimming for mental and physical health benefits. 
 
-## 2. User Experience
+# 2. User Experience
 
-### 2.2 User Stories
+## 2.2 User Stories
 1. As a wild swimmer, I want recommendations for wild swim spots in/near Bristol so I can decide to visit new locations. 
 
 2. As a wild swimmer, I want travel information including maps and detailed instructions, so I can find remote spots more easily. 
@@ -60,12 +60,28 @@ Raleway has been used to sytle the SWIM WILD BRISTOL logo as well as the heading
 
 The colors were generated to be inspiring for people who are interested in getting into wild swimming and spending time in nature. They are mainly blues and greens for this reason. 
 
+### Logo
+
+![Logo](readmeimages/wildswimlogo.png)
+
+## 2.3 Wireframes
+
+
+|    Desktop   |    Tablet    |    Mobile    |
+|    :----:    |     :----:   |    :----:    |
+|[Home Page](wireframes/home_desktop.png)|[Home Page](wireframes/home_tablet.png)|[Home Page](wireframes/home-mobile.png)|
+|[Swim spots Page]()|[Swim spots Page]()|[Swim spots Page]()|
+|[Swim Safety Page]()|[Swim Safety Page]()|[Swim Safety Page]()|
+|[Get Started Page]()|[Get Started Page]()|[Get Started Page]()|
 
 
 
 
 
-## 4. Technologies used 
+
+
+
+# 4. Technologies used 
 * [Coloors](https://coolors.co/) - Color generator
 * [WebAim](https://webaim.org/resources/contrastchecker/) - Color contract check
 * [Figma](https://www.figma.com/about/) - Design wirframes and prototypes
