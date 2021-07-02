@@ -77,8 +77,42 @@ The colors were generated to be inspiring for people who are interested in getti
 Prototype of the desktop design can be seen on [Figma](https://www.figma.com/proto/yjSNSplwMUmh46eKfheASs/Wild-Swim-Bristol?page-id=0%3A1&node-id=11%3A0&viewport=3677%2C-2357%2C0.9432434439659119&scaling=min-zoom), where the designs where produced. 
 
 
+# 3. Features
 
+## Header
+* WILD SWIM BRISTOL logo (links to homepage when clicked) .
+* Navagation links to the rest of the site. 
 
+## Footer
+* Link to top of page.
+
+Both the header and footer are consistent on every page of the site. 
+
+## Homepage
+
+* Links to each page of the site with a brief description of what that page will contain.
+*  CTA to take users to the site pages.
+* Reminder to leave no trace and respect nature.
+
+## Swim Spot page
+* **Spot Description** - Information about the site including why to visit and what facilities are available. 
+* **Image of location** - Image of location is the background for each description. 
+* **Location** - Directions, Google maps and address for each swim spot. 
+* **Saftey reminder** - Safety block to remind users to visit the safety page of the site. 
+
+## Swim Safety page
+
+* Safety tips
+* Safety video
+* Temperature guide
+* Information on swimming lessons
+
+## Get Started page 
+* Reasons to start swimming 
+* Video of wild swimming
+* Kit list
+* Kit video
+* Social media links for wild swim groups
 
 
 # 4. Technologies used 
