@@ -154,11 +154,10 @@ To clone the site:
 
 1. Select the 'wild-swim-bristol' repository.
 2. Click on ‘Clone or download’
-3. Click on ‘Download Zip’
-4. Open in your preferred IDE.
-5. Upload folder or files
-
-
+3. Click on the clipboard icon
+4. Open repo or create new repo
+5. Open terminal
+6. Type git clone and paste URL link and press enter.
 
 
 
