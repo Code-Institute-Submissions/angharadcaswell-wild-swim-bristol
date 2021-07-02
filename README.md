@@ -116,9 +116,14 @@ Both the header and footer are consistent on every page of the site.
 
 
 # 4. Technologies used 
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) - Content and structure
+* [CSS](https://en.wikipedia.org/wiki/CSS) - Style my website
+* [Gitpod](https://www.gitpod.io/) - Coding workspace
+* [Github/ Github pages](https://github.com/)- Commit and deploy my code
 * [Coloors](https://coolors.co/) - Color generator
 * [WebAim](https://webaim.org/resources/contrastchecker/) - Color contract check
 * [Figma](https://www.figma.com/about/) - Design wirframes and prototypes
 * [Font Awesome](https://fontawesome.com/) - Embed icons.
 * [Google Fonts](https://fonts.google.com/) - Select and embed fonts
+* [Am I responsive?](http://ami.responsivedesign.is/#)- To see display the website as mock ups  
  
