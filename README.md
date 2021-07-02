@@ -129,6 +129,39 @@ Both the header and footer are consistent on every page of the site.
 
 ## 5. Testing
 ## 6. Deployment
+
+How I deploy to Github pages for the first time:
+
+Go to [GitHub.com](Github.com)
+
+1. Log into Github account
+
+2. Click on ‘Repositories’
+
+3. Click on 'wild-swim-bristol Project’
+
+4. Click on ‘Settings’
+
+5. Go to ‘Github Pages’ section.
+
+6. Under the ‘Source’ select ‘Master Branch’. Then click 'save'
+
+7. Refresh page and scroll to 'Github pages' and you will find a link has been created. The websit is deployed.
+
+More information on how to deploy to Github pages can be found [here](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+
+To clone the site:
+
+1. Select the 'wild-swim-bristol' repository.
+2. Click on ‘Clone or download’
+3. Click on ‘Download Zip’
+4. Open in your preferred IDE.
+5. Upload folder or files
+
+
+
+
+
 ## 7. Credits
 * [Rachel Andrews](https://www.youtube.com/c/EverydayAthleteRach/about) for her wild swim kit video. 
 * [RNLI](https://rnli.org/) for their swim safety video.
