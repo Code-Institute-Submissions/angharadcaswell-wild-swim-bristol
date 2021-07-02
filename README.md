@@ -70,9 +70,9 @@ The colors were generated to be inspiring for people who are interested in getti
 |    Desktop   |    Tablet    |    Mobile    |
 |    :----:    |     :----:   |    :----:    |
 |[Home Page](wireframes/home_desktop.png)|[Home Page](wireframes/home_tablet.png)|[Home Page](wireframes/home-mobile.png)|
-|[Swim spots Page]()|[Swim spots Page]()|[Swim spots Page]()|
-|[Swim Safety Page]()|[Swim Safety Page]()|[Swim Safety Page]()|
-|[Get Started Page]()|[Get Started Page]()|[Get Started Page]()|
+|[Swim spots Page](wireframes/swimspots_desktop.png)|[Swim spots Page](wireframes/swimspots_tablet.png)|[Swim spots Page](wireframes/swimspots_mobile.png)|
+|[Swim Safety Page](wireframes/swimsafety_desktop.png)|[Swim Safety Page](wireframes/swimsafety_tablet.png)|[Swim Safety Page](wireframes/swimsafety_mobile.png)|
+|[Get Started Page](wireframes/getstarted_desktop.png)|[Get Started Page](wireframes/getstarted_tablet.png)|[Get Started Page](wireframes/getstarted_mobile.png)|
 
 
 
