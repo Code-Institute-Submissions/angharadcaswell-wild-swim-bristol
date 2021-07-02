@@ -74,7 +74,7 @@ The colors were generated to be inspiring for people who are interested in getti
 |[Swim Safety Page](wireframes/swimsafety_desktop.png)|[Swim Safety Page](wireframes/swimsafety_tablet.png)|[Swim Safety Page](wireframes/swimsafety_mobile.png)|
 |[Get Started Page](wireframes/getstarted_desktop.png)|[Get Started Page](wireframes/getstarted_tablet.png)|[Get Started Page](wireframes/getstarted_mobile.png)|
 
-
+Prototype of the desktop design can be seen on [Figma](https://www.figma.com/proto/yjSNSplwMUmh46eKfheASs/Wild-Swim-Bristol?page-id=0%3A1&node-id=11%3A0&viewport=3677%2C-2357%2C0.9432434439659119&scaling=min-zoom), where the designs where produced. 
 
 
 
