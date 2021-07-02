@@ -10,9 +10,10 @@
 2.3 Wireframes
 
 3. Features 
-4. Testing
-5. Deployment
-6. Credits
+4. Technologies used 
+5. Testing
+6. Deployment
+7. Credits
 
 ## 1. Project Goals
 ## 1.1 Reason for website:
@@ -64,5 +65,10 @@ The colors were generated to be inspiring for people who are interested in getti
 
 
 
-
+## 4. Technologies used 
+* [Coloors](https://coolors.co/) - Color generator
+* [WebAim](https://webaim.org/resources/contrastchecker/) - Color contract check
+* [Figma](https://www.figma.com/about/) - Design wirframes and prototypes
+* [Font Awesome](https://fontawesome.com/) - Embed icons.
+* [Google Fonts](https://fonts.google.com/) - Select and embed fonts
  
