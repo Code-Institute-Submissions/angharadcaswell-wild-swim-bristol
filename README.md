@@ -128,6 +128,7 @@ Both the header and footer are consistent on every page of the site.
 * [Am I responsive?](http://ami.responsivedesign.is/#)- To see display the website as mock ups  
 
 ## 5. Testing
+You can view the testing for this website [here.](testing.md) 
 ## 6. Deployment
 
 How I deploy to Github pages for the first time:
