@@ -126,4 +126,12 @@ Both the header and footer are consistent on every page of the site.
 * [Font Awesome](https://fontawesome.com/) - Embed icons.
 * [Google Fonts](https://fonts.google.com/) - Select and embed fonts
 * [Am I responsive?](http://ami.responsivedesign.is/#)- To see display the website as mock ups  
+
+## 5. Testing
+## 6. Deployment
+## 7. Credits
+* [Rachel Andrews](https://www.youtube.com/c/EverydayAthleteRach/about) for her wild swim kit video. 
+* [RNLI](https://rnli.org/) for their swim safety video.
+* My mentor[Precious](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for your help and guidance. 
+* [Code Institute](https://codeinstitute.net/) student support, slack community and tutorials. 
  
