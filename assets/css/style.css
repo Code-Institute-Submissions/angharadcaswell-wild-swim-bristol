@@ -1158,6 +1158,10 @@ text-align: center;
 @media screen and (min-width: 480px) { 
    .swim-spot-container-small{
    display: none; }
+
+   .direction-title{
+       display: none;
+   }
 }
 
 /* Elements to CHANGE for mobile devices */
@@ -1188,5 +1192,22 @@ text-align: center;
         transform: none !important;
         margin: 0 auto;
     }
+
+    .direction-list, .direction-list-left, .direction-list-right {
+        overflow: scroll;
+        height: 300px;
+        transform: none !important;
+        margin:10px auto;
+    
+    }
+
+    .location-box, .lilac-location-box {
+        height: 650px;
+ 
+    }
+    .eastwood-map-right {
+        float: none;
+    }
+
 }
 
