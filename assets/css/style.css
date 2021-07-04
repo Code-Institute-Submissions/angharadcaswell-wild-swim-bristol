@@ -1149,7 +1149,7 @@ text-align: center;
 
 /* Elements to show ONLY for mobile only: */
 @media screen and (min-width: 480px) { 
-   .swim-spot-container-small, .mobile-map, .direction-title, .swim-spot-container-eastwood-small{
+   .swim-spot-container-small, .mobile-map, .direction-title, .swim-spot-container-eastwood-small, .safety-small-hero{
    display: none; }
 }
 
@@ -1239,6 +1239,40 @@ text-align: center;
     .mobile-map iframe{
         height: 200px;
         width: 200px;
+        display: block;
         margin: 0 auto;
     }
+
+    /* Swim Safety page */
+
+    .safety-small-hero {
+        background: var(--turquoise-box);
+        color: #FFF;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #safe-tip {
+        display: none;
+    }
+    #safe-tip-small {
+        text-align: center;
+       
+    }
+    .safe-tip {
+        background: var(--blue-box);
+        line-height: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    .safe-video {
+        width: 300px;
+        height: auto;
+    }
+
+
+
 }
