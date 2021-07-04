@@ -1081,19 +1081,11 @@ text-align: center;
 .swim-spot-text {
     width: 250px;
     height: 250px;
-    line-height: 10px;
     padding: 5px 5px 5px 5px;
-    margin: 20px 20px;
+
 }
 
 
-.swim-spot-text p, .swim-spot-text-eastwood p{
-    font-size: 10px;
-}
-
-.swim-spot-text h2, .swim-spot-text-eastwood h2{
-    font-size: 15px !important;
-}
 
 
 .swim-spot-text-eastwood {
@@ -1156,12 +1148,8 @@ text-align: center;
 
 /* Elements to show ONLY for mobile only: */
 @media screen and (min-width: 480px) { 
-   .swim-spot-container-small{
+   .swim-spot-container-small, .mobile-map, .direction-title{
    display: none; }
-
-   .direction-title{
-       display: none;
-   }
 }
 
 /* Elements to CHANGE for mobile devices */
@@ -1177,7 +1165,8 @@ text-align: center;
 
     /* Swim spot page */
     .swim-spot-container-small {
-        height: auto;
+        height: 800px;
+ 
     }
     .swim-spot-container-small img {
         display: block;
@@ -1190,24 +1179,41 @@ text-align: center;
     .swim-spot-text {
         position: inherit;
         transform: none !important;
-        margin: 0 auto;
+        width: 100%;
+        height: 800px;
+        text-align: center;
+        font-size: 15px; 
+        line-height: 20px;
+
     }
 
-    .direction-list, .direction-list-left, .direction-list-right {
+ 
+
+    .direction-list, .direction-list-left, .direction-list-right, .direction-list-lilac {
         overflow: scroll;
         height: 300px;
         transform: none !important;
-        margin:10px auto;
+        width: 100%;
     
     }
 
     .location-box, .lilac-location-box {
         height: 650px;
+      
  
     }
     .eastwood-map-right {
         float: none;
     }
 
+    .right-map {
+        display: none;
+    }
+
+    .mobile-map iframe{
+        height: 200px;
+        width: 200px;
+        margin: 0 auto;
+    }
 }
 
