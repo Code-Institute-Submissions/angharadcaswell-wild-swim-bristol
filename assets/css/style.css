@@ -860,11 +860,12 @@ text-align: center;
     }
     #menu {
         clear: left;
-        float: left;
-        margin-left: 30px;
+        float: none;
+       
         margin-bottom: 20px;
         line-height: 25px;
     }
+
 
     /* hero image */
 
@@ -1166,14 +1167,16 @@ text-align: center;
     /* Swim spot page */
     .swim-spot-container-small {
         height: 950px;
+        width: 320px;
  
     }
     .swim-spot-container-eastwood-small {
         height: 700px;
         background: var(--turquoise-box);
         color: #fff;
-        padding: 10px 10px;
+        padding: 0;
         text-align: center;
+        width: 320px;
     }
     .swim-spot-container-small img {
         display: block;
@@ -1186,13 +1189,22 @@ text-align: center;
     .swim-spot-text {
         position: inherit;
         transform: none !important;
-        width: 300px;
+        width: 320px;
         height: 600px;
         text-align: center;
         font-size: 15px; 
         line-height: 20px;
         padding-top: 15px;
+        padding-right: 0;
+        padding-left: 0;
 
+    }
+    .swim-spot-text p, .swim-spot-container-eastwood-small p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .swim-spot-text h2, .swim-spot-container-eastwood-small h2 {
+        padding-top: 10px;
     }
 
  
@@ -1201,15 +1213,17 @@ text-align: center;
         overflow: scroll;
         height: 300px;
         transform: none !important;
-        width: 300px;
+        width: 250px;
         float: none !important;
         margin: 0 auto;
     }
 
     .location-box, .lilac-location-box {
         height: 650px;
-      margin: 0 auto;
+        width: 320px;
+      margin: 0;
       transform: none;
+      padding: 0;
  
     }
     .eastwood-map-right, .eastwood-map-left {
