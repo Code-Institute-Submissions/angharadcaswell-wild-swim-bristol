@@ -795,19 +795,18 @@ text-align: center;
 /* Home page */
 
 #page-links {
-    width: 70%;
-    height: 1350px;
-    margin: 0 auto;
+    width: 300px;
+ 
 }
 
 .home-blue-box, .home-lilac-box  {
-    margin: 20px 10px;
+    margin: 0 auto;
     height: 400px;
-    width: 100%;
+    width: 300px;
 }
 
 .home-turquoise-box {
-    margin: 20px 10px;
+    margin: 10px 10px;
     height: 450px;
     width: 100%;
 }
@@ -1269,10 +1268,36 @@ text-align: center;
     }
 
     .safe-video {
-        width: 300px;
+        width: 320px;
         height: auto;
     }
-
-
+    .swim-lessons {
+        margin: 0;
+        width: 320px;
+        float: none;
+    }
+    .swim-lessons img {
+        display: none;
+    }
+    .home-turquoise-box {
+        width: 300px;
+        margin: 0;
+      
+  
+    }
+    .home-text-right {
+        float: none;
+        margin-right: 0;
+        width: 250px;
+    }
+#temp-guide {
+    height: 600px;
+}
+#temp-guide > div {
+    width: 100%;
+    clear:both;
+    height: 150px;
+    padding: 0;
+}
 
 }
