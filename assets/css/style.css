@@ -1148,7 +1148,7 @@ text-align: center;
 
 /* Elements to show ONLY for mobile only: */
 @media screen and (min-width: 480px) { 
-   .swim-spot-container-small, .mobile-map, .direction-title{
+   .swim-spot-container-small, .mobile-map, .direction-title, .swim-spot-container-eastwood-small{
    display: none; }
 }
 
@@ -1165,8 +1165,15 @@ text-align: center;
 
     /* Swim spot page */
     .swim-spot-container-small {
-        height: 800px;
+        height: 950px;
  
+    }
+    .swim-spot-container-eastwood-small {
+        height: 700px;
+        background: var(--turquoise-box);
+        color: #fff;
+        padding: 10px 10px;
+        text-align: center;
     }
     .swim-spot-container-small img {
         display: block;
@@ -1179,11 +1186,12 @@ text-align: center;
     .swim-spot-text {
         position: inherit;
         transform: none !important;
-        width: 100%;
-        height: 800px;
+        width: 300px;
+        height: 600px;
         text-align: center;
         font-size: 15px; 
         line-height: 20px;
+        padding-top: 15px;
 
     }
 
@@ -1193,17 +1201,21 @@ text-align: center;
         overflow: scroll;
         height: 300px;
         transform: none !important;
-        width: 100%;
-    
+        width: 300px;
+        float: none !important;
+        margin: 0 auto;
     }
 
     .location-box, .lilac-location-box {
         height: 650px;
-      
+      margin: 0 auto;
+      transform: none;
  
     }
-    .eastwood-map-right {
+    .eastwood-map-right, .eastwood-map-left {
         float: none;
+        transform: none;
+        margin: 0 auto;
     }
 
     .right-map {
@@ -1216,4 +1228,3 @@ text-align: center;
         margin: 0 auto;
     }
 }
-
