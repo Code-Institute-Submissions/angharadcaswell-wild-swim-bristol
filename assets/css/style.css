@@ -762,7 +762,7 @@ text-align: center;
 }
 
 
-/* Media queries 1350px */
+/* Small screens: Media queries screens less than 1350px */
 
 /* General */
 @media screen and (max-width:1350px){
@@ -792,11 +792,8 @@ text-align: center;
     }
 
 
-}
-
-
 /* Home page */
-@media screen and (max-width:1350px){
+
 #page-links {
     width: 70%;
     height: 1350px;
@@ -982,7 +979,7 @@ text-align: center;
 
 }
 
-/* Responsive for screens smaller than 800px */
+/* Tablets: Responsive for screens smaller than 768px */
 
 @media screen and (max-width:800px){
 
@@ -1001,6 +998,8 @@ text-align: center;
         padding: 0;
         text-align: center !important;
       }
+
+    
 /* Home page  */
 
 #page-links {
@@ -1035,6 +1034,8 @@ text-align: center;
     width: 100%;
     padding: 10px 10px;
 }
+
+
 
 #hero-image, #hero-image-swimspot, #hero-image-swimsafe, #hero-image-getstarted, #hero-image-swimsafespots {
     display:none;
@@ -1071,23 +1072,20 @@ text-align: center;
 
 /* Swim spot */
 
-.swim-spot-container img {
-
-    display: none;
-    
+.swim-spot-container{
+    display: none;  
 }
-.swim-spot-container-eastwood img{
+.swim-spot-container-eastwood{
     display: none;
 }
 .swim-spot-text {
     width: 250px;
     height: 250px;
     line-height: 10px;
-    top: 50%;
-    right: 0;
     padding: 5px 5px 5px 5px;
     margin: 20px 20px;
 }
+
 
 .swim-spot-text p, .swim-spot-text-eastwood p{
     font-size: 10px;
@@ -1114,6 +1112,7 @@ text-align: center;
 .location-box {
     margin-bottom: 10px;
     margin-top: 50px;
+    float: none;
 }
 .direction-list, .direction-list-left {
     clear: right;
@@ -1150,5 +1149,44 @@ text-align: center;
    
 }
 
+}
+
+
+/* Modile devices: Responsive for screens smaller than 480px */
+
+/* Elements to show ONLY for mobile only: */
+@media screen and (min-width: 480px) { 
+   .swim-spot-container-small{
+   display: none; }
+}
+
+/* Elements to CHANGE for mobile devices */
+@media screen and (max-width: 480px) {
+   /* Hero images */
+    .hero {
+        display: none;
+    }   
+
+    .block-blue {
+        display: none;
+    }
+
+    /* Swim spot page */
+    .swim-spot-container-small {
+        height: auto;
+    }
+    .swim-spot-container-small img {
+        display: block;
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    .swim-spot-text {
+        position: inherit;
+        transform: none !important;
+        margin: 0 auto;
+    }
 }
 
