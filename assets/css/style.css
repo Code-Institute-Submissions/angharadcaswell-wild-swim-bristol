@@ -28,749 +28,736 @@
 }
 /* General CSS rules */
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
 
-body {
-    font-family: var(--main-font);
-}
-strong {
-    font-weight:bold;
-}
+    body {
+        font-family: var(--main-font);
+    }
+    strong {
+        font-weight:bold;
+    }
 
-ul {
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    list-style-type:none;
+    ul {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        list-style-type:none;
 
-}
+    }
 
-li {
-    padding-bottom: 10px;
-}
+    li {
+        padding-bottom: 10px;
+    }
 
-ol {
-    padding: 15px;
-   
-}
-.section-header{
-    text-align: center;
-    padding: 30px;
-    font-weight: 800;
-    color: var(--dark-color);
-}
+    ol {
+        padding: 15px;
+    
+    }
+    .section-header{
+        text-align: center;
+        padding: 30px;
+        font-weight: 800;
+        color: var(--dark-color);
+    }
 
 /*Logo and Menu styling */
 
-header {
-    background-color: var(--dark-color);
-    height: 75px;
-}
-footer {
-    background-color: var(--dark-color);
-    height: 75px;
-    text-align: center;
-    color: #FFF;
-    line-height: 75px;
-}
+        header {
+            background-color: var(--dark-color);
+            height: 75px;
+        }
+        footer {
+            background-color: var(--dark-color);
+            height: 75px;
+            text-align: center;
+            color: #FFF;
+            line-height: 75px;
+        }
 
 
-h1 {
-    font-family: var(--heading-font);
-    color: #fff;
-    display: inline;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    float: left;
-    font-size: 280%;
-    line-height: 75px;
-    margin-left: 20px;
-    font-weight: 300;
-}
-h2 {
-    font-family: var(--heading-font);
-    font-size: 30px;
-    font-weight: 300;
-}
-.bristol {
-    display: inline;
-    color: var(--blue-box);
-}
+        h1 {
+            font-family: var(--heading-font);
+            color: #fff;
+            display: inline;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            float: left;
+            font-size: 280%;
+            line-height: 75px;
+            margin-left: 20px;
+            font-weight: 300;
+        }
+        h2 {
+            font-family: var(--heading-font);
+            font-size: 30px;
+            font-weight: 300;
+        }
+        .bristol {
+            display: inline;
+            color: var(--blue-box);
+        }
 
-#menu{
-    font-size: 110%;
-    letter-spacing: 2px;
-    line-height: 75px;
- 
-}
-#menu ul {
-    float: right;
-}
+        #menu{
+            font-size: 110%;
+            letter-spacing: 2px;
+            line-height: 75px;
+        
+        }
+        #menu ul {
+            float: right;
+        }
 
-#menu li {
-    color: #fff !important;
-    float: left;
-    margin-right: 30px;
-    font-family: var(--main-font);
-  }
+        #menu li {
+            color: #fff !important;
+            float: left;
+            margin-right: 30px;
+            font-family: var(--main-font);
+        }
 
-  #menu a{
-      text-decoration: none;
-      color: inherit;
-  }
+        #menu a{
+            text-decoration: none;
+            color: inherit;
+        }
 
-  #menu a:hover {
-      border-bottom: 1px solid #FFF;
-  }
+        #menu a:hover {
+            border-bottom: 1px solid #FFF;
+        }
 
-  
+        
 
-  .active {
-    border-bottom: 1px solid #FFF;
-  }
+        .active {
+            border-bottom: 1px solid #FFF;
+        }
 
-  /* Hero images  and cover text*/
+/* Hero images  and cover text*/
 
 
-  #hero-outer, #hero-outer-swimspot, #hero-outer-swimsafe, #hero-outer-getstarted, #hero-outer-swimsafespots, #hero-outer-swimsafespots {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
+    #hero-outer, #hero-outer-swimspot, #hero-outer-swimsafe, #hero-outer-getstarted, #hero-outer-swimsafespots, #hero-outer-swimsafespots {
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
 
-    position: relative;
- 
-  }
+        position: relative;
+    
+    }
 
-  #cover-text, #cover-text h2, #cover-text-swimspot, #cover-text-swimspot h2, #cover-text-swimsafe, #cover-text-swimsafe h2, #cover-text-getstarted, #cover-text-getstarted h2, #cover-text-swimsafespots, #cover-text-swimsafespots h2  {
-    color: #fff;
-    text-align: center;
-    font-size: 120%;
-  }
+    #cover-text, #cover-text h2, #cover-text-swimspot, #cover-text-swimspot h2, #cover-text-swimsafe, #cover-text-swimsafe h2, #cover-text-getstarted, #cover-text-getstarted h2, #cover-text-swimsafespots, #cover-text-swimsafespots h2  {
+        color: #fff;
+        text-align: center;
+        font-size: 120%;
+    }
 
-  #hero-image, #hero-image-swimspot, #hero-image-swimsafe, #hero-image-getstarted, #hero-image-swimsafespots {
-      height: 600px;
+    #hero-image, #hero-image-swimspot, #hero-image-swimsafe, #hero-image-getstarted, #hero-image-swimsafespots {
+        height: 600px;
       width: 100%;
     
+/* animation of hero image when the page is loading */
+        animation: hero-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
 
-      /* animation of hero image when the page is loading */
-      animation: hero-zoom;
-      animation-duration: 5s;
-      animation-fill-mode: forwards;
-  }
+    #hero-image {
+        background: url('../images/male_swimmer.png') no-repeat center center;
+    }
+    #hero-image-swimspot {
+        background: url('../images/clevedon.png') no-repeat center center;
+    }
 
-  #hero-image {
-    background: url('../images/male_swimmer.png') no-repeat center center;
-  }
-  #hero-image-swimspot {
-    background: url('../images/clevedon.png') no-repeat center center;
-  }
+    #hero-image-swimsafe {
+        background: url('../images/lillypad.png') no-repeat center center;
+    }
 
-  #hero-image-swimsafe {
-      background: url('../images/lillypad.png') no-repeat center center;
-  }
-
-  #hero-image-getstarted {
-        background: url('../images/getstarted.png') no-repeat center center;
-  }
-  #hero-image-swimsafespots {
-      background: url('../images/conhamtrees.png')no-repeat center center;
-  }
+    #hero-image-getstarted {
+            background: url('../images/getstarted.png') no-repeat center center;
+    }
+    #hero-image-swimsafespots {
+        background: url('../images/conhamtrees.png')no-repeat center center;
+    }
 
   /* Hero image zoom */
 
-  @keyframes hero-zoom {
+    @keyframes hero-zoom {
 
-    from {
-        transform: scale(1);
+        from {
+            transform: scale(1);
+        }
+
+        to {
+            transform: scale(1.1);
+        }
     }
 
-    to {
-        transform: scale(1.1);
+    #cover-text, #cover-text-swimspot, #cover-text-swimsafe, #cover-text-getstarted  {
+        font-size: 130%;
+        font-family: var(--main-font);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+
+        padding-top: 40px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+
+        background-color: rgba(31, 122, 140, 0.7);
     }
-}
+    #cover-text-swimsafespots {
+        font-size: 130%;
+        font-family: var(--main-font);
+        letter-spacing: 2px;
+        padding-top: 40px;
+        padding-left: 10px;
+        padding-bottom: 5px;
 
-#cover-text, #cover-text-swimspot, #cover-text-swimsafe, #cover-text-getstarted  {
-    font-size: 130%;
-    font-family: var(--main-font);
-    text-transform: uppercase;
-    letter-spacing: 2px;
+        background-color: rgba(31, 122, 140, 0.7); 
+    }
 
-    padding-top: 40px;
-    padding-left: 10px;
-    padding-bottom: 5px;
+    #cover-text {
+        width: 300px;
+        height: 200px;
+        bottom: 200px;
+        right: 200px;
+        position: absolute;
+    }
 
-    background-color: rgba(31, 122, 140, 0.7);
-}
-#cover-text-swimsafespots {
-    font-size: 130%;
-    font-family: var(--main-font);
-    letter-spacing: 2px;
-    padding-top: 40px;
-    padding-left: 10px;
-    padding-bottom: 5px;
+    #cover-text-getstarted  {
+        width: 600px;
+        height: 200px;
+        bottom: 200px;
+        right: 200px;
+        position: absolute;
+    }
 
-    background-color: rgba(31, 122, 140, 0.7); 
-}
-
-#cover-text {
-    width: 300px;
-    height: 200px;
-    bottom: 200px;
-    right: 200px;
-    position: absolute;
-}
-
-#cover-text-getstarted  {
-    width: 600px;
-    height: 200px;
-    bottom: 200px;
-    right: 200px;
-    position: absolute;
-}
-
-#cover-text-swimspot, #cover-text-swimsafe, #cover-text-swimsafespots {
-    width: 600px;
-    height: 200px;
-    bottom: 200px;
-    left: 200px;
-    position: absolute;
-}
+    #cover-text-swimspot, #cover-text-swimsafe, #cover-text-swimsafespots {
+        width: 600px;
+        height: 200px;
+        bottom: 200px;
+        left: 200px;
+        position: absolute;
+    }
 
 /* Home link sections  */
 
-.home-blue-box,.home-lilac-box,.home-turquoise-box  {
-    margin: 30px 300px 30px 300px;
-    height: 464px;
-}
+    .home-blue-box,.home-lilac-box,.home-turquoise-box  {
+        margin: 30px 300px 30px 300px;
+        height: 464px;
+    }
 
-.home-blue-box {
-    background-color: var(--blue-box);
-}
-.home-lilac-box {
-    background-color: var(--lilac-box);
+    .home-blue-box {
+        background-color: var(--blue-box);
+    }
+    .home-lilac-box {
+        background-color: var(--lilac-box);
 
-}
-.home-turquoise-box {
-    background-color: var(--turquoise-box);
-}
+    }
+    .home-turquoise-box {
+        background-color: var(--turquoise-box);
+    }
 
-.home-text-right {
-    float: right;
-    padding: 50px 50px 50px 0;
-    color: var(--dark-color);
-    width: 50%;
-}
+    .home-text-right {
+        float: right;
+        padding: 50px 50px 50px 0;
+        color: var(--dark-color);
+        width: 50%;
+    }
 
-.home-text-left {
-    float: left;
-    padding: 100px 0px 50px 50px;
-    color: var(--dark-color);
-    width: 50%;
-  
-}
+    .home-text-left {
+        float: left;
+        padding: 100px 0px 50px 50px;
+        color: var(--dark-color);
+        width: 50%;
+    
+    }
 
-.home-blue-box img, .home-lilac-box img, .home-turquoise-box img {
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 5px;
-margin-top: 30px;
-margin-bottom: 30px;
-height: 400px;
-width: 400px;
-}
-
-.home-blue-box img, .home-turquoise-box img{
-    margin-left: -100px;
-}
-
-.home-lilac-box img {
-    margin-right: -100px;
-    float: right;
-    width: 50%;
-
-}
-
-
-.home-text-right h2, .home-text-left h2 {
-    font-family: var(--heading-font);
-
-    font-size: 40px;
-    line-height: 55px;
-}
-.home-turquoise-box h2, .home-turquoise-box p {
-    color: #fff;
-}
-
-
-.button{
-    background-color: var(--dark-color);
-    color: #fff;
-    text-decoration: none;
-    display: block;
-    margin-top: 10px;
-    width: 100px;
+    .home-blue-box img, .home-lilac-box img, .home-turquoise-box img {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
-    padding: 10px 5px 10px 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 400px;
+    width: 400px;
+    }
 
-}
+    .home-blue-box img, .home-turquoise-box img{
+        margin-left: -100px;
+    }
+
+    .home-lilac-box img {
+        margin-right: -100px;
+        float: right;
+        width: 50%;
+
+    }
+
+
+    .home-text-right h2, .home-text-left h2 {
+        font-family: var(--heading-font);
+
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .home-turquoise-box h2, .home-turquoise-box p {
+        color: #fff;
+    }
+
+
+    .button{
+        background-color: var(--dark-color);
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        margin-top: 10px;
+        width: 100px;
+        border-radius: 5px;
+        padding: 10px 5px 10px 5px;
+
+    }
 
 
 
-.button:hover{
-    background-color: #fff;
-    color:#022B3A;
-}
+    .button:hover{
+        background-color: #fff;
+        color:#022B3A;
+    }
 
 /* Bottom banner sections */
-#no-trace-outer{
-    height: 500px;
-    width: 100%;
-    overflow: hidden;
-    position: relative; 
-}
+    #no-trace-outer{
+        height: 500px;
+        width: 100%;
+        overflow: hidden;
+        position: relative; 
+    }
 
-#no-trace-image {
-    height: 500px;
-      width: 100%;
-      background: url('../images/conhamriverbanner.png') no-repeat center center;   
-}
+    #no-trace-image {
+        height: 500px;
+        width: 100%;
+        background: url('../images/conhamriverbanner.png') no-repeat center center;   
+    }
 
-#no-trace-cover-text {
-    font-size: 130%;
+    #no-trace-cover-text {
+        font-size: 130%;
 
-    letter-spacing: 2px;
-
-
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 5px;
+        letter-spacing: 2px;
 
 
-    background-color: rgba(31, 122, 140, 0.7);
-    width: 300px;
-    height: 200px;
-    bottom: 100px;
-    right: 200px;
-    position: absolute;
-    color: #fff;
-}
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+
+
+        background-color: rgba(31, 122, 140, 0.7);
+        width: 300px;
+        height: 200px;
+        bottom: 100px;
+        right: 200px;
+        position: absolute;
+        color: #fff;
+    }
 
 /* Swim spot sections */
 
-.swim-spot-container {
-    position: relative;
-    margin: 10px auto;
-    width: 650px;
-}
-.swim-spot-container-eastwood {
-    width: 750px;
-    position: relative;
-    margin: 10px auto;
-}
-.swim-spot-text {
-    position: absolute;
-    background-color: rgba(31, 122, 140, 0.8);
-    width: 500px;
-    height: 500px;
-    line-height: 25px;
-    color: #fff;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 50px 20px 20px 20px ;
-}
-.swim-spot-text-eastwood {
-    position: absolute;
-    background-color: rgba(31, 122, 140, 0.8);
-    width: 600px;
-    height: 600px;
-    line-height: 25px;
-    color: #fff;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 50px 20px 20px 20px ;
-}
+    .swim-spot-container {
+        position: relative;
+        margin: 10px auto;
+        width: 650px;
+    }
+    .swim-spot-container-eastwood {
+        width: 750px;
+        position: relative;
+        margin: 10px auto;
+    }
+    .swim-spot-text {
+        position: absolute;
+        background-color: rgba(31, 122, 140, 0.8);
+        width: 500px;
+        height: 500px;
+        line-height: 25px;
+        color: #fff;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 50px 20px 20px 20px ;
+    }
+    .swim-spot-text-eastwood {
+        position: absolute;
+        background-color: rgba(31, 122, 140, 0.8);
+        width: 600px;
+        height: 600px;
+        line-height: 25px;
+        color: #fff;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 50px 20px 20px 20px ;
+    }
 /* Links and Icons  for swim spot information*/
 
 
-.clevedon-links li { 
-    display: inline;
-    padding-left: 10px;
-    
-    
-}
+    .clevedon-links li { 
+        display: inline;
+        padding-left: 10px;
+        
+        
+    }
 
-.white-icon, .top-button {
-    color: #fff;
-    font-size: 30px;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
+    .white-icon, .top-button {
+        color: #fff;
+        font-size: 30px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 
-.top-button {
-    font-size: 60px;
-}
+    .top-button {
+        font-size: 60px;
+    }
 
 /* Location boxes */
 
-.location-box, .lilac-location-box {
-    background: var(--dark-color);
-    height: 500px;
-    padding: 5px 20px 5px 10px;
-}
+    .location-box, .lilac-location-box {
+        background: var(--dark-color);
+        height: 500px;
+        padding: 5px 20px 5px 10px;
+    }
 
-.location-box-eastwood {
-    background: var(--dark-color);
-    height: 600px;
-    padding: 10px 10px 10px 10px;
-}
+    .location-box-eastwood {
+        background: var(--dark-color);
+        height: 600px;
+        padding: 10px 10px 10px 10px;
+    }
 
-.lilac-location-box{
-    background: var(--lilac-box);
+    .lilac-location-box{
+        background: var(--lilac-box);
 
- 
-}
-.location-box h2, .lilac-location-box h2, .location-box-eastwood h2{
-text-align: center;
-color: #fff;
-padding-top: 10px;
-padding-bottom: 10px;
-
-font-size: 250%;
-
-}
-
-.lilac-location-box h2 {
-    color: var(--dark-color);
-}
-
-.direction-list, .direction-list-left, .direction-list-right  {
-    background: var(--blue-box);
-    padding: 5px 5px;
-    line-height: 30px;
-
-}
-.direction-list{
-    float: right;
-    width: 60%;
-}
-
-.direction-list-left {
-    float:left;
-    width: 45%;
-  
-}
-.direction-list-right {
-    float:right;
-    width: 45%;
-    margin:10px 10px;
-}
-.direction-list-left h2, .direction-list-right  h2{
-color: var(--dark-color);
-}
-
-
-.direction-list-lilac {
-    float: left;
-    background: var(--dark-color);
-    padding: 10px 10px;
-    line-height: 30px;
-    width: 60%;
-}
-.direction-list-lilac p {
+    
+    }
+    .location-box h2, .lilac-location-box h2, .location-box-eastwood h2{
+    text-align: center;
     color: #fff;
-}
-.direction-list p, .direction-list-lilac p, .direction-list-left p, .direction-list-right p {
-    display: inline;
-}
+    padding-top: 10px;
+    padding-bottom: 10px;
 
-.location-box iframe, .lilac-map iframe {
-    padding-left: 50px;
-    width: 30%;
-}
+    font-size: 250%;
 
-.location-box iframe {
-    float: left;
-   
-}
+    }
 
-.right-map iframe {
-    float: right;
-   
-}
+    .lilac-location-box h2 {
+        color: var(--dark-color);
+    }
 
-.right-map {
-    padding-left: 50px;
-}
-.eastwood-map-left{
-    width: 45%;
-    float: left;
-    margin-left: 50px;
+    .direction-list, .direction-list-left, .direction-list-right  {
+        background: var(--blue-box);
+        padding: 5px 5px;
+        line-height: 30px;
+
+    }
+    .direction-list{
+        float: right;
+        width: 60%;
+    }
+
+    .direction-list-left {
+        float:left;
+        width: 45%;
     
-    
-}
-
-.eastwood-map-left iframe, .eastwood-map-right iframe{
-    display: block;
-    margin: 0 auto;
-}
-.eastwood-map-right{
-    width: 45%;
-    float: right;
-    margin-left: 50px;
-}
-
-
-.blue-icon {
-    padding-right: 10px;
-    padding-left: 10px;
-    vertical-align: middle;
-    font-size: 30px;
+    }
+    .direction-list-right {
+        float:right;
+        width: 45%;
+        margin:10px 10px;
+    }
+    .direction-list-left h2, .direction-list-right  h2{
     color: var(--dark-color);
-}
-
-a {
-    color: inherit;
-}
+    }
 
 
+    .direction-list-lilac {
+        float: left;
+        background: var(--dark-color);
+        padding: 10px 10px;
+        line-height: 30px;
+        width: 60%;
+    }
+    .direction-list-lilac p {
+        color: #fff;
+    }
+    .direction-list p, .direction-list-lilac p, .direction-list-left p, .direction-list-right p {
+        display: inline;
+    }
+
+    .location-box iframe, .lilac-map iframe {
+        padding-left: 50px;
+        width: 30%;
+    }
+
+    .location-box iframe {
+        float: left;
+    
+    }
+
+    .right-map iframe {
+        float: right;
+    
+    }
+
+    .right-map {
+        padding-left: 50px;
+    }
+    .eastwood-map-left{
+        width: 45%;
+        float: left;
+        margin-left: 50px;
+        
+        
+    }
+
+    .eastwood-map-left iframe, .eastwood-map-right iframe{
+        display: block;
+        margin: 0 auto;
+    }
+    .eastwood-map-right{
+        width: 45%;
+        float: right;
+        margin-left: 50px;
+    }
 
 
+    .blue-icon {
+        padding-right: 10px;
+        padding-left: 10px;
+        vertical-align: middle;
+        font-size: 30px;
+        color: var(--dark-color);
+    }
+
+    a {
+        color: inherit;
+    }
 
 
 /* Divider block and lines on pages */
-.block-blue {
-    width: 100%;
-    height: 30px;
-    background: var(--dark-color);
+    .block-blue {
+        width: 100%;
+        height: 30px;
+        background: var(--dark-color);
 
-}
+    }
 
-hr{
-    border: 1px solid #1F7A8C;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
+    hr{
+        border: 1px solid #1F7A8C;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
 /* Why swim section */
 
-#why-start, #safe-tip {
+    #why-start, #safe-tip {
+        
+        background: var(--lilac-box);
+        color: var(--dark-color);
     
-    background: var(--lilac-box);
-    color: var(--dark-color);
- 
-}
-#why-start{
-    height: 500px;
-}
-#safe-tip {
-    height: 900px;
-}
+    }
+    #why-start{
+        height: 500px;
+    }
+    #safe-tip {
+        height: 900px;
+    }
 
-#left-start, #left-safe {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
+    #left-start, #left-safe {
+        padding-top: 30px;
+        width: 33%;
+        float: left;
 
-}
+    }
 
-#right-start, #right-safe {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
+    #right-start, #right-safe {
+        padding-top: 30px;
+        width: 33%;
+        float: right;
 
-}
+    }
 
-#center-start, #center-safe {
-    padding-top:50px;
-    width: 33%;
-    margin: 0 auto;
-}
-#center-safe {
-    padding-top: 250px;
-}
+    #center-start, #center-safe {
+        padding-top:50px;
+        width: 33%;
+        margin: 0 auto;
+    }
+    #center-safe {
+        padding-top: 250px;
+    }
  
 
 /* Style Get Started reasons and saftey tips*/
 
-.left-start-reason, .right-start-reason, .right-safe-tip, .left-safe-tip {
-    background: var(--blue-box);
-    width: 80%;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-    padding: 10px;
+    .left-start-reason, .right-start-reason, .right-safe-tip, .left-safe-tip {
+        background: var(--blue-box);
+        width: 80%;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 50px;
+        padding: 10px;
 
-}
+    }
 
-.left-start-reason, .left-safe-tip {
-    float: right;
-}
+    .left-start-reason, .left-safe-tip {
+        float: right;
+    }
 
-.right-start-reason, .right-safe-tip {
-    float: left;
-    text-align: right;
-}
+    .right-start-reason, .right-safe-tip {
+        float: left;
+        text-align: right;
+    }
 
-.circle-container {
-    height: 300px;
-    width: 300px;
-    background: var(--turquoise-box);
-    border-radius: 50%;
-    color: #fff;
-    margin: 0 auto;
-    padding: 30px;
-}
+    .circle-container {
+        height: 300px;
+        width: 300px;
+        background: var(--turquoise-box);
+        border-radius: 50%;
+        color: #fff;
+        margin: 0 auto;
+        padding: 30px;
+    }
 
-.circle-container h2 {
- padding-top:100px;
-   text-align: center;
-   font-size: 50px;
- 
-}
+    .circle-container h2 {
+    padding-top:100px;
+    text-align: center;
+    font-size: 50px;
+    
+    }
 
 /* Swimming videos */
-.pensford h2{
-text-align: center;
-padding-top: 20px;
-}
-.pensford-video{
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-    height: 300px;
-    width: 500px;
-}
+    .pensford h2{
+    text-align: center;
+    padding-top: 20px;
+    }
+    .pensford-video{
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        height: 300px;
+        width: 500px;
+    }
 
 /* Kit list */
 
-#kit-list {
-    background: var(--dark-color);
-    color: white;
-    margin: 20px 20px;
-    padding: 20px 20px;
-    height: 700px;
-}
-#kit-list h2 {
-   text-align: center;
-    color: #fff;
-    font-weight: 800;
-}
+    #kit-list {
+        background: var(--dark-color);
+        color: white;
+        margin: 20px 20px;
+        padding: 20px 20px;
+        height: 700px;
+    }
+    #kit-list h2 {
+    text-align: center;
+        color: #fff;
+        font-weight: 800;
+    }
 
-#kit-list-left{
-    width: 50%;
-  height: 300px;
-    float: left;
-}
-
-#kit-list-right {
-    width: 50%;
+    #kit-list-left{
+        width: 50%;
     height: 300px;
-    float: right;
-}
+        float: left;
+    }
 
-#kit-list-left li, #kit-list-right li {
-    line-height: 30px; ;
-    margin-bottom: 10px;
+    #kit-list-right {
+        width: 50%;
+        height: 300px;
+        float: right;
+    }
 
-
-}
+    #kit-list-left li, #kit-list-right li {
+        line-height: 30px; ;
+        margin-bottom: 10px;
+    }
 
 
 /* kit list video section */
-.kit {
-text-align: center;
-}
-.kit-video {
-    width: 50%;
-    display: block;
-    margin: 40px auto;
-    height: 300px;
-    width: 500px;
-}
+    .kit {
+    text-align: center;
+    }
+    .kit-video {
+        width: 50%;
+        display: block;
+        margin: 40px auto;
+        height: 300px;
+        width: 500px;
+    }
 
 /* Social link */
 
-.social {
-    background: var(--lilac-box);
-    padding: 20px 20px;
+    .social {
+        background: var(--lilac-box);
+        padding: 20px 20px;
 
-}
+    }
 
-.social a {
-    text-decoration: none;
-      color: inherit;
-      font-size: 20px;
-    
-}
-.social li {
-    color: #fff;
-}
+    .social a {
+        text-decoration: none;
+        color: inherit;
+        font-size: 20px;
+        
+    }
+    .social li {
+        color: #fff;
+    }
 
-.social .white-icon {
-    font-size: 20px;
-}
+    .social .white-icon {
+        font-size: 20px;
+    }
 
 /* Safety tips */
 
-.emergency li {
-    text-align: center;
-}
+    .emergency li {
+        text-align: center;
+    }
 
 /* Temperature guide */
 
-#temp-guide {
+    #temp-guide {
 
-    
-    background-image: url('../images/conhamriverbanner.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    width: 100%;
-    height: 250px;
+        
+        background-image: url('../images/conhamriverbanner.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        width: 100%;
+        height: 250px;
 
-}
+    }
 
-#temp-guide div {
-    color: #fff;
-    width: 25%;
-    height: 250px;
-    float: left;
-    background-color: rgba(31, 122, 140, 0.6);
-    padding: 30px 10px 10px 10px;
-    text-align: center;
-    border: 4px solid white;
-    box-sizing: border-box;
-
-
-}
-
-
-
-.white-hr {
-    border: 1px solid #FFF;
-}
+    #temp-guide div {
+        color: #fff;
+        width: 25%;
+        height: 250px;
+        float: left;
+        background-color: rgba(31, 122, 140, 0.6);
+        padding: 30px 10px 10px 10px;
+        text-align: center;
+        border: 4px solid white;
+        box-sizing: border-box;
+    }
+    .white-hr {
+        border: 1px solid #FFF;
+    }
 /* rnli video */
+    .safe-video {
+        width: 50%;
+        display: block;
+        margin: 40px auto;
+        padding-bottom: 30px;
+        height: 300px;
+        width: 500px;
+    }
 
-.safe-video {
-    width: 50%;
-    display: block;
-    margin: 40px auto;
-    padding-bottom: 30px;
-    height: 300px;
-    width: 500px;
-}
-
-.lilac-background {
-    background: var(--lilac-box);
-}
+    .lilac-background {
+        background: var(--lilac-box);
+    }
 
 
 /* Small screens: Media queries screens less than 1350px */
@@ -806,37 +793,36 @@ text-align: center;
 
 /* Home page */
 
-#page-links {
-    width: 80%;
-    margin: 0 auto;
- 
-}
+    #page-links {
+        width: 80%;
+        margin: 0 auto;
+    
+    }
 
-.home-blue-box, .home-lilac-box  {
-    margin: 20px auto;
-width: 100%;
+    .home-blue-box, .home-lilac-box  {
+        margin: 20px auto;
+    width: 100%;
 
-}
+    }
 
-.home-turquoise-box {
-    margin: 20px auto;
-    height: 450px;
-  right: 0;
-}
+    .home-turquoise-box {
+        margin: 20px auto;
+        height: 450px;
+    right: 0;
+    }
 
-.home-text-right, .home-text-left {
-    padding: 5px 5px 5px 5px;
-    width: 70%;
-}
+    .home-text-right, .home-text-left {
+        padding: 5px 5px 5px 5px;
+        width: 70%;
+    }
 
-.home-text-right p, .home-text-left p, .home-text-right li, .home-text-left li  {
-    font-size: 20px;
-    line-height: 25px;
-}
+    .home-text-right p, .home-text-left p, .home-text-right li, .home-text-left li  {
+        font-size: 20px;
+        line-height: 25px;
+    }
 
 
-.home-blue-box img, .home-lilac-box img, .home-turquoise-box img {
-
+    .home-blue-box img, .home-lilac-box img, .home-turquoise-box img {
     margin-top: 80px;
     margin-bottom: 10px;
     height: 200px !important;
@@ -938,71 +924,71 @@ width: 100%;
     
 /* Swim Safety section */
 
-#safe-tip {
-    height: 1000px;
-}
+    #safe-tip {
+        height: 1000px;
+    }
 
-#safe-tip p, #safe-tip li {
-    font-size: 15px;
-}
+    #safe-tip p, #safe-tip li {
+        font-size: 15px;
+    }
 
-#safe-tip h2 {
-    font-size: 20px !important;
-}
+    #safe-tip h2 {
+        font-size: 20px !important;
+    }
 
-.circle-container {
-    height: 150px;
-    width: 150px;
-    
-}
+    .circle-container {
+        height: 150px;
+        width: 150px;
+        
+    }
 
-.circle-container h2 {
-    padding-top:50px;
-   }
+    .circle-container h2 {
+        padding-top:50px;
+    }
 
 
-   .safe-video {
-    width: 60%;
-    display: block;
-    margin: 20px auto;
-    padding-bottom: 10px;
-}
+    .safe-video {
+        width: 60%;
+        display: block;
+        margin: 20px auto;
+        padding-bottom: 10px;
+    }
 
-.swim-lessons, .social {
-    width: 80%;
-    margin: 0 auto;
-}
+    .swim-lessons, .social {
+        width: 80%;
+        margin: 0 auto;
+    }
 
-.swim-lessons img, .social img {
-    height: 250px;
-    width: 250px;
-}
+    .swim-lessons img, .social img {
+        height: 250px;
+        width: 250px;
+    }
 
 /* Get started */
 
-#why-start {
-    height: 600px;
-}
+    #why-start {
+        height: 600px;
+    }
 
-#center-start {
-    padding-top: 150px;;
-}
+    #center-start {
+        padding-top: 150px;;
+    }
 
-.pensford-video, .kit-video {
-    width: 60%;
-    display: block;
-    margin: 20px auto;
-    padding-bottom: 10px;
-}
+    .pensford-video, .kit-video {
+        width: 60%;
+        display: block;
+        margin: 20px auto;
+        padding-bottom: 10px;
+    }
 
 
-}
+    }
 
 /* Tablets: Responsive for screens smaller than 768px */
 
 @media screen and (max-width:768px){
 
-    /* Nav bar */
+/* Nav bar */
     header {
         height: 200px;
         width: 100%;
@@ -1021,165 +1007,165 @@ width: 100%;
     
 /* Home page  */
 
-#page-links {
-    height: auto;
-    width: auto;
+    #page-links {
+        height: auto;
+        width: auto;
+        
+    }
+        
+    .home-blue-box img, .home-lilac-box img, .home-turquoise-box img {
+        display: none;
+    }
+
+    .home-text-right p, .home-text-left p, .home-text-right li, .home-text-left li  {
+        font-size: 15px;
+        line-height: 15px;
+        text-align: center;
+
+    }
+    .home-text-right h2, .home-text-left h2 {
+        text-align: center;
+    }
+
+    .home-text-right, .home-text-left {
+        float: none;
+        padding: 10px 10px 10px 10px;
+        width: 100%;
+    }
+
+    .home-blue-box, .home-lilac-box, .home-turquoise-box   {
+        margin: 10px 10px;
+        height: 300px;
+        width: 100%;
+        padding: 10px 10px;
+    }
+
+
+
+    #hero-image, #hero-image-swimspot, #hero-image-swimsafe, #hero-image-getstarted, #hero-image-swimsafespots {
+        display:none;
+    }
+
+    #hero-outer, #hero-outer-swimspot, #hero-outer-swimsafe, #hero-outer-getstarted, #hero-outer-swimsafespots, #hero-outer-swimsafespots {
+        background: transparent;
+    }
     
-}
-    
-.home-blue-box img, .home-lilac-box img, .home-turquoise-box img {
-    display: none;
-}
 
-.home-text-right p, .home-text-left p, .home-text-right li, .home-text-left li  {
-    font-size: 15px;
-    line-height: 15px;
-    text-align: center;
+    #cover-text, #cover-text-swimspot, #cover-text-swimsafe, #cover-text-getstarted {
+        right: 50px;
+        left: 50px;
+        background-color: rgba(31, 122, 140);
+    }
+    #no-trace-outer{
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        position: relative; 
+    }
 
-}
-.home-text-right h2, .home-text-left h2 {
-    text-align: center;
-}
+    #no-trace-image {
+        height: 250px;
+    }
+    #no-trace-cover-text {
+        font-size: 20px;
+        background-color: rgba(31, 122, 140, 0.7);
+        width: 300px;
+        height: auto;
+        bottom: 50px;
+        right: 20px;
 
-.home-text-right, .home-text-left {
-    float: none;
-    padding: 10px 10px 10px 10px;
-    width: 100%;
-}
-
-.home-blue-box, .home-lilac-box, .home-turquoise-box   {
-    margin: 10px 10px;
-    height: 300px;
-    width: 100%;
-    padding: 10px 10px;
-}
-
-
-
-#hero-image, #hero-image-swimspot, #hero-image-swimsafe, #hero-image-getstarted, #hero-image-swimsafespots {
-    display:none;
-}
-
-#hero-outer, #hero-outer-swimspot, #hero-outer-swimsafe, #hero-outer-getstarted, #hero-outer-swimsafespots, #hero-outer-swimsafespots {
-    background: transparent;
-}
-   
-
-#cover-text, #cover-text-swimspot, #cover-text-swimsafe, #cover-text-getstarted {
-    right: 50px;
-    left: 50px;
-    background-color: rgba(31, 122, 140);
-}
-#no-trace-outer{
-    height: auto;
-    width: 100%;
-    overflow: hidden;
-    position: relative; 
-}
-
-#no-trace-image {
-    height: 250px;
-}
-#no-trace-cover-text {
-    font-size: 20px;
-    background-color: rgba(31, 122, 140, 0.7);
-    width: 300px;
-    height: auto;
-    bottom: 50px;
-    right: 20px;
-
-}
+    }
 
 /* Swim spot */
 
-.swim-spot-container{
-    display: none;  
-}
-.swim-spot-container-eastwood{
-    display: none;
-}
-.swim-spot-text {
-    width: 250px;
-    height: 250px;
-    padding: 5px 5px 5px 5px;
+    .swim-spot-container{
+        display: none;  
+    }
+    .swim-spot-container-eastwood{
+        display: none;
+    }
+    .swim-spot-text {
+        width: 250px;
+        height: 250px;
+        padding: 5px 5px 5px 5px;
 
-}
-
-
+    }
 
 
-.swim-spot-text-eastwood {
-    position:static;
-    background-color: rgba(31, 122, 140, 0.8);
-    width: 600px;
-    height: 600px;
-    line-height: 25px;
-    color: #fff;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 50px 20px 20px 20px ;
-}
-
-.location-box {
-    margin-bottom: 10px;
-    margin-top: 50px;
-    float: none;
-}
-.direction-list, .direction-list-left {
-    clear: right;
-    float: right;
-    width: 100%;
-}
-.direction-list-lilac, .direction-list-right {
-    clear: left;
-    float: left;
-    width: 100%;
-}
-
-.location-box iframe {
-    clear: left;
-    float: left;
-   
-}
 
 
-.lilac-map iframe {
-    clear: right;
-    float: right;
-}
+    .swim-spot-text-eastwood {
+        position:static;
+        background-color: rgba(31, 122, 140, 0.8);
+        width: 600px;
+        height: 600px;
+        line-height: 25px;
+        color: #fff;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 50px 20px 20px 20px ;
+    }
 
-.location-box iframe {
-    clear: right;
-    float: right;
-   
-}
+    .location-box {
+        margin-bottom: 10px;
+        margin-top: 50px;
+        float: none;
+    }
+    .direction-list, .direction-list-left {
+        clear: right;
+        float: right;
+        width: 100%;
+    }
+    .direction-list-lilac, .direction-list-right {
+        clear: left;
+        float: left;
+        width: 100%;
+    }
 
-.right-map iframe {
-    clear: left;
-    float: left;
-   
-}
+    .location-box iframe {
+        clear: left;
+        float: left;
+    
+    }
+
+
+    .lilac-map iframe {
+        clear: right;
+        float: right;
+    }
+
+    .location-box iframe {
+        clear: right;
+        float: right;
+    
+    }
+
+    .right-map iframe {
+        clear: left;
+        float: left;
+    
+    }
 
 /* Get started */
-#why-start {
-    height: 800px;
-}
+    #why-start {
+        height: 800px;
+    }
 
-.kit-video, .pensford-video {
-    height: 300px;
-    width: 400px;
-}
+    .kit-video, .pensford-video {
+        height: 300px;
+        width: 400px;
+    }
+
 /* Swim safety */
 
-#safe-tip {
-
+    #safe-tip {
     height: 1200px;
-}
-.safe-video {
-    height: 300px;
-    width: 400px;
-}
+    }
+    .safe-video {
+        height: 300px;
+        width: 400px;
+    }
 
 }
 
@@ -1187,28 +1173,29 @@ width: 100%;
 /* Modile devices: Responsive for screens smaller than 480px */
 
 /* Elements to show ONLY for mobile only: */
-@media screen and (min-width: 480px) { 
-   .swim-spot-container-small, .mobile-map, .direction-title, .swim-spot-container-eastwood-small, .safety-small-hero, #center-start-small, #safe-tip-small{
-   display: none; }
-}
+    @media screen and (min-width: 480px) { 
+    .swim-spot-container-small, .mobile-map, .direction-title, .swim-spot-container-eastwood-small, .safety-small-hero, #center-start-small, #safe-tip-small{
+    display: none; }
+    }
 
 /* Elements to CHANGE for mobile devices */
-@media screen and (max-width: 480px) {
-   /* Hero images */
+    @media screen and (max-width: 480px) {
+/* Hero images */
     .hero {
         display: none;
     }   
-
     .block-blue {
         display: none;
     }
-    /* Homepage */
+
+/* Homepage */
     .home-blue-box, .home-lilac-box, .home-turquoise-box {
         margin: 0 auto !important;
         width: 300px;
         height: 350px;
     }
-    /* Swim spot page */
+
+/* Swim spot page */
     #swim-spot-info {
         margin: 0 auto;
     }
@@ -1233,7 +1220,6 @@ width: 100%;
         margin: 0 auto;
         padding-top: 20px;
     }
-
     .swim-spot-text {
         position: inherit;
         transform: none !important;
@@ -1254,9 +1240,6 @@ width: 100%;
     .swim-spot-text h2, .swim-spot-container-eastwood-small h2 {
         padding-top: 10px;
     }
-
- 
-
     .direction-list, .direction-list-left, .direction-list-right, .direction-list-lilac {
         overflow: scroll;
         height: 300px;
@@ -1265,7 +1248,6 @@ width: 100%;
         float: none !important;
         margin: 0 auto;
     }
-
     .location-box, .lilac-location-box {
         height: 650px;
         width: 320px;
@@ -1283,11 +1265,9 @@ width: 100%;
         transform: none;
         margin: 0 auto;
     }
-
     .right-map {
         display: none;
     }
-
     .mobile-map iframe{
         height: 200px;
         width: 200px;
@@ -1295,8 +1275,7 @@ width: 100%;
         margin: 0 auto;
     }
 
-    /* Swim Safety page */
-
+/* Swim Safety page */
     .safety-small-hero {
         background: var(--blue-box);
         color: var(--dark-color);
@@ -1305,13 +1284,11 @@ width: 100%;
         padding-top: 20px;
         padding-bottom: 20px;
     }
-
     #safe-tip {
         display: none;
     }
     #safe-tip-small {
-        text-align: center;
-       
+        text-align: center; 
     }
     .safe-tip {
         background: var(--blue-box);
@@ -1319,7 +1296,6 @@ width: 100%;
         margin-bottom: 20px;
         padding: 10px;
     }
-
     .safe-video {
         width: 320px;
         height: auto;
@@ -1335,94 +1311,90 @@ width: 100%;
     .home-turquoise-box {
         width: 300px;
         margin: 0;
-      
-  
     }
     .home-text-right {
         float: none;
         margin-right: 0;
         width: 250px;
     }
-#temp-guide {
-    height: 600px;
-}
-#temp-guide > div {
-    width: 100%;
-    clear:both;
-    height: 150px;
-    padding: 0;
+    #temp-guide {
+        height: 600px;
+    }
+    #temp-guide > div {
+        width: 100%;
+        clear:both;
+        height: 150px;
+        padding: 0;
 }
 
 /* Get started page */
 
-.kit-video, .pensford-video {
-    width: 300px;
-    height: 200px;
-    margin: 0 auto;
-}
+    .kit-video, .pensford-video {
+        width: 300px;
+        height: 200px;
+        margin: 0 auto;
+    }
 
-#center-start {
-    display: none;
+    #center-start {
+        display: none;
+        
+    }
+
+    #center-start-small {
+        margin-top: 10px;
+    }
+    #why-start {
+        height: 1100px;
+        margin-top: 10px;
+        width: 100%;
+        padding: 10px 10px;
+    }
+    #why-start > div {
+        width: 100%;
+        clear: both;
+        margin: 0;
+        padding: 0;
+    }
+    .left-start-reason, .right-start-reason {
+        margin-bottom: 10px;
+    }
+    #kit-list > ul {
+        width: 100%;
+        clear: both;
+        margin: 0;
+        padding: 0;
+    }
+
+    #kit-list {
+        margin: 0;
+        padding: 0;
+        height:700px
+    }
+    #kit-list li {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .home-text-right{
+        width: 100%;
+    float: none;
+    }
+    .social {
+        padding: 0;
+        margin: 0;
     
-}
 
-#center-start-small {
-    margin-top: 10px;
-}
-#why-start {
-    height: 1100px;
-    margin-top: 10px;
-    width: 100%;
-    padding: 10px 10px;
-}
+    }
 
-#why-start > div {
-    width: 100%;
-    clear: both;
-    margin: 0;
-    padding: 0;
-}
-.left-start-reason, .right-start-reason {
-    margin-bottom: 10px;
-}
+    .social a {
+        font-size: 15px;
 
-#kit-list > ul {
-    width: 100%;
-    clear: both;
-    margin: 0;
-    padding: 0;
-}
+    }
+    .social img {
+        margin-right: 0;
+    }
+    #hero-outer-getstarted {
+        display: none;
+    }
 
-#kit-list {
-    margin: 0;
-    padding: 0;
-    height:700px
-}
-#kit-list li {
-    font-size: 10px;
-    line-height: 15px;
-}
-
-.home-text-right{
-    width: 100%;
-float: none;
-}
-.social {
-    padding: 0;
-    margin: 0;
-  
-
-}
-
-.social a {
-    font-size: 15px;
-
-}
-.social img {
-    margin-right: 0;
-}
-#hero-outer-getstarted {
-    display: none;
-}
-
-}
+    }

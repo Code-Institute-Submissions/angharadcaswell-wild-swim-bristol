@@ -1,20 +1,7 @@
 # WILD SWIM BRISTOL
-## Table of contents:
-1. Project Goals
-1.1 Reasons for website
-1.2 Goals
-
-2. User Experience 
-2.1 User stories
-2.2 Design
-2.3 Wireframes
-
-3. Features 
-4. Technologies used 
-5. Testing
-6. Deployment
-7. Credits
-
+A website about wild swimming in bristol. 
+[Link to site](https://angharadcaswell.github.io/wild-swim-bristol/)
+![Mock up images](readmeimages/mockup.png)
 # 1. Project Goals
 ## 1.1 Reason for website:
 1. There are no websites available for swim spots specifically in Bristol, UK. 
@@ -29,7 +16,7 @@ Get people swimming for mental and physical health benefits.
 
 # 2. User Experience
 
-## 2.2 User Stories
+## 2.1 User Stories
 1. As a wild swimmer, I want recommendations for wild swim spots in/near Bristol so I can decide to visit new locations. 
 
 2. As a wild swimmer, I want travel information including maps and detailed instructions, so I can find remote spots more easily. 
@@ -114,6 +101,12 @@ Both the header and footer are consistent on every page of the site.
 * Kit video
 * Social media links for wild swim groups
 
+## Features to implement:
+* Search function to find spots.
+* Social media links for WILD SWIM BRISTOL
+* Water quality search
+* Swimming events in Bristol
+
 
 # 4. Technologies used 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5) - Content and structure
@@ -160,11 +153,17 @@ To clone the site:
 5. Open terminal
 6. Type git clone and paste URL link and press enter.
 
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 
-## 7. Credits
+
+## 7. Credits:
+
+## Media
 * [Rachel Andrews](https://www.youtube.com/c/EverydayAthleteRach/about) for her wild swim kit video. 
 * [RNLI](https://rnli.org/) for their swim safety video.
+
+## Acknowledgments:
 * My mentor[Precious](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for your help and guidance. 
 * [Code Institute](https://codeinstitute.net/) student support, slack community and tutorials. 
  
