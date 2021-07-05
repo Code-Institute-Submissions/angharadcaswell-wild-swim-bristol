@@ -812,11 +812,11 @@ width: 100%;
 .home-turquoise-box {
     margin: 20px auto;
     height: 450px;
-    width: 100%;
+  right: 0;
 }
 
 .home-text-right, .home-text-left {
-    padding: 10px 10px 10px 15px;
+    padding: 5px 5px 5px 5px;
     width: 70%;
 }
 
@@ -830,8 +830,8 @@ width: 100%;
 
     margin-top: 80px;
     margin-bottom: 10px;
-    height: 250px;
-    width: 250px;
+    height: 200px !important;
+    width: 200px !important;
     }
 
     .home-blue-box img, .home-turquoise-box img{
@@ -1058,6 +1058,7 @@ width: 100%;
 
 #cover-text, #cover-text-swimspot, #cover-text-swimsafe, #cover-text-getstarted {
     right: 50px;
+    left: 50px;
     background-color: rgba(31, 122, 140);
 }
 #no-trace-outer{
@@ -1149,6 +1150,26 @@ width: 100%;
     clear: left;
     float: left;
    
+}
+
+/* Get started */
+#why-start {
+    height: 800px;
+}
+
+.kit-video, .pensford-video {
+    height: 300px;
+    width: 400px;
+}
+/* Swim safety */
+
+#safe-tip {
+
+    height: 1200px;
+}
+.safe-video {
+    height: 300px;
+    width: 400px;
 }
 
 }
