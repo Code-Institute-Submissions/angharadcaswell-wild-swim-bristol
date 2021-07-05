@@ -644,6 +644,8 @@ padding-top: 20px;
     width: 50%;
     display: block;
     margin: 0 auto;
+    height: 300px;
+    width: 500px;
 }
 
 /* Kit list */
@@ -689,6 +691,8 @@ text-align: center;
     width: 50%;
     display: block;
     margin: 40px auto;
+    height: 300px;
+    width: 500px;
 }
 
 /* Social link */
@@ -760,6 +764,8 @@ text-align: center;
     display: block;
     margin: 40px auto;
     padding-bottom: 30px;
+    height: 300px;
+    width: 500px;
 }
 
 .lilac-background {
