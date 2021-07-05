@@ -864,7 +864,6 @@ width: 100%;
     #menu {
         clear: left;
         float: none;
-       
         margin-bottom: 20px;
         line-height: 25px;
     }
@@ -874,6 +873,7 @@ width: 100%;
 
     #hero-image, #hero-image-swimspot, #hero-image-swimsafe, #hero-image-getstarted, #hero-image-swimsafespots,#hero-outer, #hero-outer-swimspot, #hero-outer-swimsafe, #hero-outer-getstarted, #hero-outer-swimsafespots, #hero-outer-swimsafespots{
         height: 400px;
+        width: 100%;
     }
     #cover-text, #cover-text-swimspot, #cover-text-swimsafe, #cover-text-getstarted  {
         font-size: 40px;
@@ -889,9 +889,12 @@ width: 100%;
 
     /* Swim spot page */
 
-    .location-box iframe, .right-map, .eastwood-map-right iframe, .eastwood-map-left iframe {
+    .location-box iframe,  .eastwood-map-right iframe, .eastwood-map-left iframe {
         margin-left: 40px;
         margin-right: 40px;
+    }
+    .lilac-location-box {
+        height: 400px;
     }
 
     .right-map, .eastwood-map-right iframe, .eastwood-map-left iframe, .location-box iframe{
@@ -903,10 +906,13 @@ width: 100%;
     .white-icon, .blue-icon {
         font-size: 20px;
     }
+    .direction-list, .direction-list-left, .direction-list-right, .direction-list-lilac {
+        overflow: scroll;
+        height: 300px;}
 
     .location-box-eastwood {
 
-        height: 800px;
+        height: 400px;
         padding: 10px 10px 10px 10px;
     }
 
