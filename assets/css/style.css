@@ -1177,6 +1177,7 @@ width: 100%;
     .swim-spot-container-small {
         height: 950px;
         width: 320px;
+        background: var(--turquoise-box);
  
     }
     .swim-spot-container-eastwood-small {
@@ -1235,6 +1236,10 @@ width: 100%;
       padding: 0;
  
     }
+    .location-box-eastwood {
+        height: 790px;
+        width: 320px;
+    }
     .eastwood-map-right, .eastwood-map-left {
         float: none;
         transform: none;
@@ -1255,10 +1260,10 @@ width: 100%;
     /* Swim Safety page */
 
     .safety-small-hero {
-        background: var(--turquoise-box);
-        color: #FFF;
+        background: var(--blue-box);
+        color: var(--dark-color);
         text-align: center;
-        font-size: 20px;
+        font-size: 15px !important;
         padding-top: 20px;
         padding-bottom: 20px;
     }
