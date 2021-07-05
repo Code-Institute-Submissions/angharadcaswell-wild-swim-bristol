@@ -1193,7 +1193,12 @@ width: 100%;
     .block-blue {
         display: none;
     }
-
+    /* Homepage */
+    .home-blue-box, .home-lilac-box, .home-turquoise-box {
+        margin: 0 0;
+        width: 300px;
+        height: 350px;
+    }
     /* Swim spot page */
     .swim-spot-container-small {
         height: 950px;
