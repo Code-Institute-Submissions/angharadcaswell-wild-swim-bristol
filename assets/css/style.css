@@ -1209,6 +1209,9 @@ width: 100%;
         height: 350px;
     }
     /* Swim spot page */
+    #swim-spot-info {
+        margin: 0 auto;
+    }
     .swim-spot-container-small {
         height: 950px;
         width: 320px;
