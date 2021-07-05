@@ -107,10 +107,13 @@ h2 {
     line-height: 75px;
  
 }
+#menu ul {
+    float: right;
+}
 
 #menu li {
     color: #fff !important;
-    float: right;
+    float: left;
     margin-right: 30px;
     font-family: var(--main-font);
   }
